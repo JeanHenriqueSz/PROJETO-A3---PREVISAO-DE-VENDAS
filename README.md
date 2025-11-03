@@ -1,2 +1,1 @@
-# PROJETO-A3---PREVISÃO-DE-VENDAS
-Projeto A3 / 2° semestre - Inteligencia artificial. Integrantes:
+# PROJETO-A3---PREVIS-O-DE-VENDAS
