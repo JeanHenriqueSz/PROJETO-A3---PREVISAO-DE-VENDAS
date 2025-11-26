@@ -275,21 +275,22 @@ ax1.set_ylabel("Unidades previstas")
 st.pyplot(fig1)
 
 
+# Verifica se há dados suficientes para treino/teste
+if len(dados_prod) < MIN_HISTORICO or len(Xp_train) == 0 or len(Xp_test) == 0:
+    st.warning("⚠ Este produto não possui histórico suficiente para gerar o gráfico Real vs Previsto.")
+    st.stop()
+
 # ======================================================================
-# 9) GRÁFICO REAL vs PREVISTO
-# ======================================================================
-# ======================================================================
-# 9) GRÁFICO REAL vs PREVISTO
+# 9) GRÁFICO REAL vs PREVISTO — SELETOR DE PRODUTO
 # ======================================================================
 
-st.subheader("📈 Real vs Previsto — Escolha um Produto")
+st.subheader("📈 Real vs Previsto — Selecione um Produto")
 
 # Lista de produtos disponíveis
 lista_produtos = vendas_diarias["produto"].unique()
 
-# Selecionador
 produto_escolhido = st.selectbox(
-    "Selecione o produto para visualizar o gráfico:",
+    "Selecione o produto para visualizar o comportamento no período de teste:",
     lista_produtos
 )
 
@@ -305,36 +306,41 @@ dados_prod["lag_7"] = dados_prod["qtd"].shift(7)
 dados_prod = dados_prod.dropna(subset=["lag_1", "lag_7"])
 
 # X e y
-X = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
-y = dados_prod["qtd"]
+Xp = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
+yp = dados_prod["qtd"]
 
 # Divisão temporal
-split_index = int(len(dados_prod) * 0.8)
-X_train = X.iloc[:split_index]
-y_train = y.iloc[:split_index]
-X_test = X.iloc[split_index:]
-y_test = y.iloc[split_index:]
+split_idx = int(len(dados_prod) * 0.8)
+Xp_train = Xp.iloc[:split_idx]
+yp_train = yp.iloc[:split_idx]
+Xp_test = Xp.iloc[split_idx:]
+yp_test = yp.iloc[split_idx:]
 
-# Treino dos 3 modelos (novamente para este produto)
+# CORREÇÃO — impede erro quando os dados são insuficientes
+if len(dados_prod) < MIN_HISTORICO or len(Xp_train) == 0 or len(Xp_test) == 0:
+    st.warning("⚠ Este produto não possui histórico suficiente para gerar o gráfico Real vs Previsto.")
+    st.stop()
+
+# Treino dos 3 modelos (somente se passar da verificação)
 modelo_rf = RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1)
-modelo_rf.fit(X_train, y_train)
-pred_rf = modelo_rf.predict(X_test)
+modelo_rf.fit(Xp_train, yp_train)
+pred_rf = modelo_rf.predict(Xp_test)
 
 modelo_lr = LinearRegression()
-modelo_lr.fit(X_train, y_train)
-pred_lr = modelo_lr.predict(X_test)
+modelo_lr.fit(Xp_train, yp_train)
+pred_lr = modelo_lr.predict(Xp_test)
 
 modelo_mlp = MLPRegressor(hidden_layer_sizes=(64, 32), max_iter=500, random_state=42)
-modelo_mlp.fit(X_train, y_train)
-pred_mlp = modelo_mlp.predict(X_test)
+modelo_mlp.fit(Xp_train, yp_train)
+pred_mlp = modelo_mlp.predict(Xp_test)
 
 # Geração do gráfico
 fig3, ax3 = plt.subplots(figsize=(12, 5))
 
-ax3.plot(X_test.index, y_test.values, label="Real", marker="o")
-ax3.plot(X_test.index, pred_rf, label="RF", marker="x")
-ax3.plot(X_test.index, pred_lr, label="Linear", marker="s")
-ax3.plot(X_test.index, pred_mlp, label="MLP", marker="^")
+ax3.plot(Xp_test.index, yp_test.values, label="Real", marker="o")
+ax3.plot(Xp_test.index, pred_rf, label="RF", marker="x")
+ax3.plot(Xp_test.index, pred_lr, label="Linear", marker="s")
+ax3.plot(Xp_test.index, pred_mlp, label="MLP", marker="^")
 
 ax3.set_title(f"Real vs Previsto — {produto_escolhido}")
 ax3.set_ylabel("Vendas")
