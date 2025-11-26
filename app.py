@@ -213,13 +213,13 @@ for produto in vendas_diarias["produto"].unique():
     # Métricas
     # ---------------------------------------
     mae_rf = mean_absolute_error(y_test, pred_rf)
-    rmse_rf = mean_squared_error(y_test, pred_rf, squared=False)
+    rmse_rf = mean_squared_error(y_test, pred_rf)
 
     mae_lr = mean_absolute_error(y_test, pred_lr)
-    rmse_lr = mean_squared_error(y_test, pred_lr, squared=False)
+    rmse_lr = mean_squared_error(y_test, pred_lr)
 
     mae_mlp = mean_absolute_error(y_test, pred_mlp)
-    rmse_mlp = mean_squared_error(y_test, pred_mlp, squared=False)
+    rmse_mlp = mean_squared_error(y_test, pred_mlp)
 
     media_prev_dia = float(np.mean(pred_rf))
     previsao_30 = int(round(media_prev_dia * PREVISAO_DIAS))
