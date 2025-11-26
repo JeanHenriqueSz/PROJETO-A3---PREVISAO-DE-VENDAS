@@ -278,71 +278,83 @@ st.pyplot(fig1)
 
 
 # ======================================================================
-# 9) GRÁFICO REAL vs PREVISTO — SELETOR DE PRODUTO
+# 9) GRÁFICO REAL vs PREVISTO — AGORA COM DATAS REAIS NO EIXO X
 # ======================================================================
 
-st.subheader("📈 Real vs Previsto — Selecione um Produto")
+st.subheader("📈 Real vs Previsto — Escolha um Produto")
 
 # Lista de produtos disponíveis
-lista_produtos = vendas_diarias["produto"].unique()
+lista_produtos = resultados_df["Produto"].unique()
 
+# Seleção do produto
 produto_escolhido = st.selectbox(
-    "Selecione o produto para visualizar o comportamento no período de teste:",
+    "Selecione o produto para visualizar o gráfico:",
     lista_produtos
 )
 
-# Filtra dados do produto escolhido
+# Filtrar dados do produto escolhido
 dados_prod = vendas_diarias[vendas_diarias["produto"] == produto_escolhido].copy()
 
-# Criação das features
+# Criar features de tempo e lags
 dados_prod["mes"] = dados_prod["data"].dt.month
 dados_prod["dia"] = dados_prod["data"].dt.day
 dados_prod["dia_semana"] = dados_prod["data"].dt.dayofweek
 dados_prod["lag_1"] = dados_prod["qtd"].shift(1)
 dados_prod["lag_7"] = dados_prod["qtd"].shift(7)
+
+# Remove linhas sem lag
 dados_prod = dados_prod.dropna(subset=["lag_1", "lag_7"])
 
-# X e y
-Xp = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
-yp = dados_prod["qtd"]
-
-# Divisão temporal
-split_idx = int(len(dados_prod) * 0.8)
-Xp_train = Xp.iloc[:split_idx]
-yp_train = yp.iloc[:split_idx]
-Xp_test = Xp.iloc[split_idx:]
-yp_test = yp.iloc[split_idx:]
-
-# CORREÇÃO — impede erro quando os dados são insuficientes
-if len(dados_prod) < MIN_HISTORICO or len(Xp_train) == 0 or len(Xp_test) == 0:
-    st.warning("⚠ Este produto não possui histórico suficiente para gerar o gráfico Real vs Previsto.")
+# Se continuar com poucos dados, evita erro
+if len(dados_prod) < MIN_HISTORICO:
+    st.warning(f"O produto **{produto_escolhido}** não possui histórico suficiente para gerar o gráfico.")
     st.stop()
 
-# Treino dos 3 modelos (somente se passar da verificação)
+# X e y
+X = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
+y = dados_prod["qtd"]
+
+# Divisão temporal 80/20
+split_index = int(len(dados_prod) * 0.8)
+
+X_train = X.iloc[:split_index]
+y_train = y.iloc[:split_index]
+X_test = X.iloc[split_index:]
+y_test = y.iloc[split_index:]
+
+datas_test = dados_prod["data"].iloc[split_index:]
+
+# Se der erro por split vazio, trata
+if len(X_train) == 0 or len(X_test) == 0:
+    st.warning(f"Dados insuficientes para o produto **{produto_escolhido}**.")
+    st.stop()
+
+# Treino dos modelos
 modelo_rf = RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1)
-modelo_rf.fit(Xp_train, yp_train)
-pred_rf = modelo_rf.predict(Xp_test)
+modelo_rf.fit(X_train, y_train)
+pred_rf = modelo_rf.predict(X_test)
 
 modelo_lr = LinearRegression()
-modelo_lr.fit(Xp_train, yp_train)
-pred_lr = modelo_lr.predict(Xp_test)
+modelo_lr.fit(X_train, y_train)
+pred_lr = modelo_lr.predict(X_test)
 
 modelo_mlp = MLPRegressor(hidden_layer_sizes=(64, 32), max_iter=500, random_state=42)
-modelo_mlp.fit(Xp_train, yp_train)
-pred_mlp = modelo_mlp.predict(Xp_test)
+modelo_mlp.fit(X_train, y_train)
+pred_mlp = modelo_mlp.predict(X_test)
 
 # Geração do gráfico
 fig3, ax3 = plt.subplots(figsize=(12, 5))
 
-ax3.plot(Xp_test.index, yp_test.values, label="Real", marker="o")
-ax3.plot(Xp_test.index, pred_rf, label="RF", marker="x")
-ax3.plot(Xp_test.index, pred_lr, label="Linear", marker="s")
-ax3.plot(Xp_test.index, pred_mlp, label="MLP", marker="^")
+ax3.plot(datas_test, y_test.values, label="Real", marker="o")
+ax3.plot(datas_test, pred_rf, label="RF", marker="x")
+ax3.plot(datas_test, pred_lr, label="Linear", marker="s")
+ax3.plot(datas_test, pred_mlp, label="MLP", marker="^")
 
 ax3.set_title(f"Real vs Previsto — {produto_escolhido}")
-ax3.set_ylabel("Vendas")
+ax3.set_ylabel("Vendas Diárias")
 ax3.legend()
 ax3.grid(True)
+plt.xticks(rotation=45)
 
 st.pyplot(fig3)
 
