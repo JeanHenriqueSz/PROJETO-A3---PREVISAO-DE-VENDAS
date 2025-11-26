@@ -251,6 +251,38 @@ resultados_df = pd.DataFrame(resultados, columns=cols)
 st.subheader("📊 Tabela de Resultados")
 st.dataframe(resultados_df)
 
+# ======================================================================
+# 6.1) MÉDIAS GERAIS DOS MODELOS
+# ======================================================================
+
+st.subheader("📌 Métricas Médias por Modelo")
+
+mae_rf_med = resultados_df["MAE_RF"].mean()
+rmse_rf_med = resultados_df["RMSE_RF"].mean()
+
+mae_lr_med = resultados_df["MAE_LR"].mean()
+rmse_lr_med = resultados_df["RMSE_LR"].mean()
+
+mae_mlp_med = resultados_df["MAE_MLP"].mean()
+rmse_mlp_med = resultados_df["RMSE_MLP"].mean()
+
+# Exibe em forma de tabela
+medias_df = pd.DataFrame({
+    "Modelo": ["Random Forest", "Linear Regression", "MLP (Rede Neural)"],
+    "MAE Médio": [
+        round(mae_rf_med, 3),
+        round(mae_lr_med, 3),
+        round(mae_mlp_med, 3)
+    ],
+    "RMSE Médio": [
+        round(rmse_rf_med, 3),
+        round(rmse_lr_med, 3),
+        round(rmse_mlp_med, 3)
+    ]
+})
+
+st.dataframe(medias_df)
+
 
 # ======================================================================
 # 7) DOWNLOAD DA PREVISÃO
