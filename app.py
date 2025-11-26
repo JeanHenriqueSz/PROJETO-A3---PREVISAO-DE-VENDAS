@@ -275,10 +275,7 @@ ax1.set_ylabel("Unidades previstas")
 st.pyplot(fig1)
 
 
-# Verifica se há dados suficientes para treino/teste
-if len(dados_prod) < MIN_HISTORICO or len(Xp_train) == 0 or len(Xp_test) == 0:
-    st.warning("⚠ Este produto não possui histórico suficiente para gerar o gráfico Real vs Previsto.")
-    st.stop()
+
 
 # ======================================================================
 # 9) GRÁFICO REAL vs PREVISTO — SELETOR DE PRODUTO
