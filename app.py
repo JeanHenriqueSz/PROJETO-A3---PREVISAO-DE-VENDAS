@@ -185,8 +185,8 @@ for produto in vendas_diarias["produto"].unique():
     X = dados[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
     y = dados["qtd"]
 
-    # Split temporal 80 / 20
-    split = int(len(dados) * 0.8)
+    # Split temporal 70 / 30
+    split = int(len(dados) * 0.7)
     X_train, y_train = X.iloc[:split], y.iloc[:split]
     X_test, y_test = X.iloc[split:], y.iloc[split:]
 
@@ -346,8 +346,8 @@ if len(dados_prod) < MIN_HISTORICO:
 X = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
 y = dados_prod["qtd"]
 
-# Divisão temporal 80/20
-split_index = int(len(dados_prod) * 0.8)
+# Divisão temporal 70/30
+split_index = int(len(dados_prod) * 0.7)
 
 X_train = X.iloc[:split_index]
 y_train = y.iloc[:split_index]
