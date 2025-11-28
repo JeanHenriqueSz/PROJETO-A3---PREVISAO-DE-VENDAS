@@ -73,7 +73,10 @@ def carregar_e_preparar_dados(file):
     )
 
     # Detecta automaticamente a coluna do produto
-    possiveis_nomes = ["coffee_name", "coffee", "name", "product"]
+    possiveis_nomes = [
+    "produto", "product", "item", "name",
+    "corte", "meat", "cut", "coffee", "coffee_name"
+]
 
     coluna_produto = None
     for c in df.columns:
