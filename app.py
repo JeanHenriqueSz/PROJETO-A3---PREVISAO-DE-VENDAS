@@ -90,9 +90,15 @@ def carregar_e_preparar_dados(file):
 
     df = df.rename(columns={coluna_produto: "produto"})
 
-    if "date" not in df.columns:
-        st.error("❌ A coluna 'date' não existe no CSV.")
+    # Aceita 'date' ou 'data'
+    if "date" in df.columns:
+        df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    elif "data" in df.columns:
+        df["date"] = pd.to_datetime(df["data"], errors="coerce")
+    else:
+        st.error("❌ O CSV precisa ter a coluna 'date' ou 'data'.")
         st.stop()
+
 
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     df = df.dropna(subset=["date", "produto"])
