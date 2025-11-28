@@ -1,17 +1,5 @@
 # ======================================================================
-#  PREVISÃO DE VENDAS DE CAFÉ — Aplicação Streamlit para Deploy na Web
-# ======================================================================
-#
-#  Este script:
-#  - Lê os dois arquivos reais do dataset "Coffee Sales"
-#  - Trata diferenças de nomes das colunas automaticamente
-#  - Remove problemas de encoding / espaços invisíveis
-#  - Agrega vendas por dia e por produto
-#  - Treina 3 modelos: RandomForest, Regressão Linear e Rede Neural MLP
-#  - Calcula métricas MAE e RMSE
-#  - Mostra gráficos interativos e tabela final
-#  - Permite download da previsão em CSV
-#
+#  PREVISÃO DE VENDAS
 # ======================================================================
 
 import numpy as np
@@ -31,7 +19,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 st.set_page_config(page_title="Previsão de Café", layout="wide")
 
-st.title("☕ Previsão de Vendas de Café — Machine Learning")
+st.title("Previsão de Vendas — Machine Learning")
 st.write("""
 Este sistema utiliza **dados reais do Coffee Sales Dataset** e aplica  
 **Random Forest**, **Regressão Linear** e **Rede Neural MLP**  
@@ -289,7 +277,7 @@ st.download_button("📥 Baixar CSV", csv, "previsao_30_dias.csv", "text/csv")
 # 8) GRÁFICO TOP 10 PRODUTOS
 # ======================================================================
 
-st.subheader("🏆 Top 10 cafés com maior previsão")
+st.subheader("🏆 Top 8 produtos com maior previsão")
 
 top10 = resultados_df.sort_values("Previsão 30 dias", ascending=False).head(10)
 
