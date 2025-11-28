@@ -26,6 +26,28 @@ Este sistema utiliza **dados reais do Coffee Sales Dataset** e aplica
 para prever as vendas dos próximos **30 dias** por tipo de café.
 """)
 
+st.markdown("""
+<div style="
+    border: 2px solid #4CAF50;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(76, 175, 80, 0.1);
+    text-align: center;
+    font-size: 18px;
+">
+<b>Equipe de Desenvolvimento</b><br><br>
+
+Laura Fagundes Freitas — 42413265 <br>
+Aparício Virginio do Amaral — 42414535 <br>
+Matheus Henrique Santos — 42410613 <br>
+Danielly Silva Teixeira — 42415112 <br>
+Samuel Fellipe Batista — 42521948 <br>
+Arthur Maestro da Silva Aguiar — 4231925821 <br>
+Jean Henrique Resende Paiva — 4251925073 <br>
+
+</div>
+""", unsafe_allow_html=True)
+
 
 PREVISAO_DIAS = 30
 MIN_HISTORICO = 20
