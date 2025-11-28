@@ -1,0 +1,1840 @@
+data,produto,qtd
+2024-01-01,Salsicha,4.91
+2024-01-01,Picanha,1.28
+2024-01-01,Salsicha,1.18
+2024-01-01,Contra Filé,1.48
+2024-01-01,Costela Suína,1.35
+2024-01-01,Carne Moída,1.48
+2024-01-01,Maminha,3.24
+2024-01-01,Contra Filé,1.38
+2024-01-02,Coxa/Sobrecoxa de Frango,1.04
+2024-01-02,Picanha,1.66
+2024-01-02,Coxa/Sobrecoxa de Frango,1.74
+2024-01-02,Costela Suína,3.13
+2024-01-02,Linguiça Toscana,1.61
+2024-01-02,Carne Moída,3.63
+2024-01-02,Picanha,1.01
+2024-01-02,Coxa/Sobrecoxa de Frango,3.18
+2024-01-03,Picanha,1.95
+2024-01-03,Coxa/Sobrecoxa de Frango,3.62
+2024-01-03,Fraldinha,3.68
+2024-01-03,Carne Moída,1.08
+2024-01-03,Fraldinha,1.17
+2024-01-03,Linguiça Toscana,1.71
+2024-01-03,Linguiça Toscana,4.08
+2024-01-04,Costela Suína,1.7
+2024-01-04,Carne Moída,1.38
+2024-01-04,Salsicha,3.63
+2024-01-04,Maminha,0.63
+2024-01-04,Contra Filé,1.54
+2024-01-04,Salsicha,4.17
+2024-01-04,Picanha,2.56
+2024-01-04,Coxa/Sobrecoxa de Frango,1.53
+2024-01-04,Linguiça Toscana,3.08
+2024-01-04,Picanha,2.33
+2024-01-04,Costela Suína,3.77
+2024-01-04,Contra Filé,2.39
+2024-01-04,Fraldinha,1.78
+2024-01-04,Contra Filé,0.57
+2024-01-05,Picanha,0.87
+2024-01-05,Linguiça Toscana,4.0
+2024-01-05,Costela Suína,3.81
+2024-01-05,Contra Filé,2.86
+2024-01-05,Coxa/Sobrecoxa de Frango,2.85
+2024-01-05,Salsicha,4.03
+2024-01-05,Maminha,1.13
+2024-01-05,Contra Filé,0.88
+2024-01-05,Maminha,1.42
+2024-01-05,Salsicha,3.67
+2024-01-06,Carne Moída,3.43
+2024-01-06,Fraldinha,2.84
+2024-01-06,Contra Filé,2.02
+2024-01-06,Linguiça Toscana,4.0
+2024-01-06,Picanha,0.89
+2024-01-07,Maminha,1.63
+2024-01-07,Costela Suína,3.54
+2024-01-07,Carne Moída,2.68
+2024-01-07,Fraldinha,3.83
+2024-01-07,Coxa/Sobrecoxa de Frango,1.44
+2024-01-07,Costela Suína,2.77
+2024-01-08,Carne Moída,1.12
+2024-01-08,Picanha,0.62
+2024-01-08,Carne Moída,1.23
+2024-01-08,Salsicha,1.48
+2024-01-08,Picanha,0.56
+2024-01-08,Coxa/Sobrecoxa de Frango,2.27
+2024-01-08,Contra Filé,1.58
+2024-01-08,Fraldinha,3.61
+2024-01-08,Carne Moída,2.16
+2024-01-08,Fraldinha,3.84
+2024-01-08,Coxa/Sobrecoxa de Frango,2.91
+2024-01-08,Picanha,1.26
+2024-01-08,Maminha,1.24
+2024-01-08,Costela Suína,0.94
+2024-01-09,Contra Filé,2.46
+2024-01-09,Salsicha,4.53
+2024-01-09,Carne Moída,1.96
+2024-01-09,Linguiça Toscana,1.97
+2024-01-09,Maminha,2.76
+2024-01-09,Linguiça Toscana,3.35
+2024-01-09,Coxa/Sobrecoxa de Frango,1.07
+2024-01-09,Linguiça Toscana,2.24
+2024-01-09,Picanha,1.22
+2024-01-10,Fraldinha,2.3
+2024-01-10,Maminha,0.92
+2024-01-10,Salsicha,3.75
+2024-01-10,Fraldinha,3.76
+2024-01-10,Carne Moída,1.21
+2024-01-10,Maminha,2.09
+2024-01-10,Fraldinha,2.08
+2024-01-10,Fraldinha,2.98
+2024-01-10,Coxa/Sobrecoxa de Frango,2.65
+2024-01-10,Fraldinha,3.37
+2024-01-10,Linguiça Toscana,2.75
+2024-01-10,Picanha,2.17
+2024-01-10,Carne Moída,2.35
+2024-01-10,Coxa/Sobrecoxa de Frango,2.01
+2024-01-11,Maminha,2.34
+2024-01-11,Maminha,1.4
+2024-01-11,Contra Filé,2.47
+2024-01-11,Salsicha,1.12
+2024-01-11,Carne Moída,1.26
+2024-01-11,Contra Filé,1.74
+2024-01-11,Fraldinha,3.43
+2024-01-11,Carne Moída,1.04
+2024-01-11,Maminha,3.06
+2024-01-11,Coxa/Sobrecoxa de Frango,3.1
+2024-01-12,Salsicha,3.03
+2024-01-12,Fraldinha,3.91
+2024-01-12,Contra Filé,1.41
+2024-01-12,Fraldinha,1.32
+2024-01-12,Fraldinha,1.36
+2024-01-12,Costela Suína,2.07
+2024-01-12,Coxa/Sobrecoxa de Frango,3.71
+2024-01-12,Contra Filé,0.56
+2024-01-12,Contra Filé,3.29
+2024-01-12,Contra Filé,3.25
+2024-01-13,Costela Suína,3.36
+2024-01-13,Coxa/Sobrecoxa de Frango,0.95
+2024-01-13,Picanha,2.13
+2024-01-13,Fraldinha,2.37
+2024-01-13,Coxa/Sobrecoxa de Frango,2.58
+2024-01-13,Carne Moída,3.53
+2024-01-13,Carne Moída,1.07
+2024-01-13,Linguiça Toscana,2.78
+2024-01-13,Contra Filé,2.16
+2024-01-13,Maminha,2.29
+2024-01-13,Maminha,1.38
+2024-01-13,Linguiça Toscana,1.46
+2024-01-14,Maminha,2.82
+2024-01-14,Coxa/Sobrecoxa de Frango,1.4
+2024-01-14,Linguiça Toscana,1.33
+2024-01-14,Picanha,2.05
+2024-01-14,Maminha,2.6
+2024-01-15,Carne Moída,2.82
+2024-01-15,Costela Suína,1.68
+2024-01-15,Contra Filé,3.25
+2024-01-15,Picanha,2.46
+2024-01-15,Contra Filé,0.58
+2024-01-15,Carne Moída,0.99
+2024-01-15,Carne Moída,2.07
+2024-01-15,Salsicha,2.96
+2024-01-15,Picanha,3.5
+2024-01-15,Carne Moída,1.63
+2024-01-15,Coxa/Sobrecoxa de Frango,3.2
+2024-01-15,Carne Moída,2.4
+2024-01-15,Carne Moída,2.92
+2024-01-15,Costela Suína,2.26
+2024-01-15,Costela Suína,2.76
+2024-01-16,Fraldinha,3.18
+2024-01-16,Picanha,0.71
+2024-01-16,Contra Filé,1.75
+2024-01-16,Contra Filé,2.03
+2024-01-16,Linguiça Toscana,1.0
+2024-01-16,Maminha,3.1
+2024-01-16,Salsicha,1.89
+2024-01-16,Picanha,2.83
+2024-01-16,Salsicha,1.18
+2024-01-16,Costela Suína,1.09
+2024-01-16,Maminha,1.11
+2024-01-17,Maminha,2.81
+2024-01-17,Maminha,1.13
+2024-01-17,Picanha,2.86
+2024-01-17,Maminha,2.55
+2024-01-17,Maminha,3.07
+2024-01-17,Picanha,1.22
+2024-01-17,Carne Moída,1.48
+2024-01-18,Fraldinha,2.72
+2024-01-18,Carne Moída,2.94
+2024-01-18,Costela Suína,2.69
+2024-01-18,Picanha,1.23
+2024-01-18,Contra Filé,1.24
+2024-01-18,Contra Filé,2.32
+2024-01-18,Costela Suína,2.12
+2024-01-18,Fraldinha,3.77
+2024-01-18,Contra Filé,3.23
+2024-01-18,Fraldinha,1.92
+2024-01-18,Costela Suína,3.19
+2024-01-18,Costela Suína,3.26
+2024-01-18,Coxa/Sobrecoxa de Frango,1.83
+2024-01-18,Picanha,0.63
+2024-01-19,Fraldinha,2.27
+2024-01-19,Salsicha,4.03
+2024-01-19,Maminha,1.77
+2024-01-19,Coxa/Sobrecoxa de Frango,1.69
+2024-01-19,Picanha,0.63
+2024-01-19,Costela Suína,2.08
+2024-01-19,Linguiça Toscana,2.63
+2024-01-19,Carne Moída,2.21
+2024-01-19,Maminha,2.03
+2024-01-19,Contra Filé,2.18
+2024-01-19,Costela Suína,0.91
+2024-01-19,Carne Moída,3.36
+2024-01-19,Fraldinha,1.08
+2024-01-19,Costela Suína,3.87
+2024-01-19,Picanha,1.04
+2024-01-20,Salsicha,4.84
+2024-01-20,Carne Moída,0.81
+2024-01-20,Linguiça Toscana,2.25
+2024-01-20,Picanha,2.68
+2024-01-20,Fraldinha,0.93
+2024-01-20,Contra Filé,2.09
+2024-01-20,Linguiça Toscana,2.42
+2024-01-20,Fraldinha,3.45
+2024-01-20,Picanha,1.43
+2024-01-20,Fraldinha,3.55
+2024-01-20,Linguiça Toscana,1.96
+2024-01-20,Fraldinha,1.38
+2024-01-20,Salsicha,1.15
+2024-01-20,Fraldinha,2.18
+2024-01-21,Carne Moída,2.57
+2024-01-21,Carne Moída,2.19
+2024-01-21,Maminha,2.17
+2024-01-21,Picanha,0.97
+2024-01-21,Costela Suína,2.5
+2024-01-21,Linguiça Toscana,4.4
+2024-01-21,Carne Moída,3.64
+2024-01-22,Fraldinha,2.96
+2024-01-22,Linguiça Toscana,2.78
+2024-01-22,Fraldinha,1.5
+2024-01-22,Contra Filé,0.82
+2024-01-22,Coxa/Sobrecoxa de Frango,1.12
+2024-01-22,Fraldinha,3.98
+2024-01-22,Maminha,0.99
+2024-01-22,Coxa/Sobrecoxa de Frango,3.84
+2024-01-22,Carne Moída,1.16
+2024-01-22,Contra Filé,3.38
+2024-01-22,Linguiça Toscana,3.95
+2024-01-23,Fraldinha,2.31
+2024-01-23,Fraldinha,2.42
+2024-01-23,Salsicha,4.12
+2024-01-23,Maminha,2.94
+2024-01-23,Contra Filé,2.71
+2024-01-23,Coxa/Sobrecoxa de Frango,1.24
+2024-01-24,Costela Suína,2.32
+2024-01-24,Salsicha,1.53
+2024-01-24,Fraldinha,2.35
+2024-01-24,Maminha,2.74
+2024-01-24,Coxa/Sobrecoxa de Frango,3.27
+2024-01-24,Picanha,2.51
+2024-01-24,Picanha,1.62
+2024-01-24,Linguiça Toscana,1.79
+2024-01-24,Costela Suína,3.45
+2024-01-24,Maminha,2.02
+2024-01-24,Costela Suína,2.12
+2024-01-24,Linguiça Toscana,2.97
+2024-01-25,Carne Moída,2.38
+2024-01-25,Picanha,1.77
+2024-01-25,Coxa/Sobrecoxa de Frango,2.44
+2024-01-25,Carne Moída,1.6
+2024-01-25,Maminha,3.37
+2024-01-25,Picanha,2.18
+2024-01-25,Maminha,3.4
+2024-01-25,Coxa/Sobrecoxa de Frango,3.47
+2024-01-25,Linguiça Toscana,1.91
+2024-01-25,Carne Moída,3.49
+2024-01-25,Contra Filé,2.07
+2024-01-26,Carne Moída,3.54
+2024-01-26,Carne Moída,3.56
+2024-01-26,Maminha,3.25
+2024-01-26,Costela Suína,3.18
+2024-01-26,Picanha,3.35
+2024-01-26,Linguiça Toscana,3.52
+2024-01-26,Contra Filé,2.26
+2024-01-26,Carne Moída,2.0
+2024-01-26,Contra Filé,2.3
+2024-01-27,Fraldinha,2.38
+2024-01-27,Costela Suína,3.86
+2024-01-27,Coxa/Sobrecoxa de Frango,1.65
+2024-01-27,Picanha,2.75
+2024-01-27,Carne Moída,2.88
+2024-01-27,Picanha,1.31
+2024-01-27,Carne Moída,3.33
+2024-01-28,Costela Suína,3.97
+2024-01-28,Costela Suína,3.85
+2024-01-28,Linguiça Toscana,1.82
+2024-01-28,Fraldinha,3.99
+2024-01-28,Contra Filé,3.09
+2024-01-28,Contra Filé,1.08
+2024-01-28,Picanha,3.2
+2024-01-28,Linguiça Toscana,4.49
+2024-01-28,Salsicha,2.55
+2024-01-28,Contra Filé,2.62
+2024-01-28,Maminha,2.07
+2024-01-28,Fraldinha,3.9
+2024-01-28,Coxa/Sobrecoxa de Frango,2.65
+2024-01-29,Linguiça Toscana,3.71
+2024-01-29,Linguiça Toscana,4.11
+2024-01-29,Costela Suína,1.37
+2024-01-29,Fraldinha,1.33
+2024-01-29,Fraldinha,1.11
+2024-01-29,Linguiça Toscana,4.87
+2024-01-29,Linguiça Toscana,1.52
+2024-01-29,Picanha,3.11
+2024-01-29,Fraldinha,2.26
+2024-01-29,Fraldinha,3.1
+2024-01-29,Coxa/Sobrecoxa de Frango,1.3
+2024-01-29,Maminha,2.88
+2024-01-29,Salsicha,4.41
+2024-01-29,Salsicha,3.66
+2024-01-29,Contra Filé,1.34
+2024-01-30,Salsicha,2.75
+2024-01-30,Picanha,1.23
+2024-01-30,Salsicha,4.23
+2024-01-30,Picanha,1.07
+2024-01-30,Coxa/Sobrecoxa de Frango,1.16
+2024-01-30,Fraldinha,3.59
+2024-01-30,Costela Suína,1.14
+2024-01-30,Coxa/Sobrecoxa de Frango,3.91
+2024-01-30,Salsicha,3.04
+2024-01-31,Contra Filé,0.97
+2024-01-31,Carne Moída,1.23
+2024-01-31,Maminha,0.57
+2024-01-31,Contra Filé,1.61
+2024-01-31,Linguiça Toscana,2.06
+2024-01-31,Coxa/Sobrecoxa de Frango,1.49
+2024-01-31,Carne Moída,1.22
+2024-01-31,Coxa/Sobrecoxa de Frango,2.36
+2024-01-31,Carne Moída,1.01
+2024-01-31,Linguiça Toscana,2.64
+2024-01-31,Contra Filé,2.05
+2024-02-01,Contra Filé,3.21
+2024-02-01,Costela Suína,2.93
+2024-02-01,Fraldinha,3.55
+2024-02-01,Fraldinha,1.0
+2024-02-01,Linguiça Toscana,3.31
+2024-02-01,Costela Suína,2.98
+2024-02-02,Maminha,1.59
+2024-02-02,Coxa/Sobrecoxa de Frango,1.92
+2024-02-02,Salsicha,2.87
+2024-02-02,Contra Filé,3.18
+2024-02-02,Costela Suína,3.61
+2024-02-02,Coxa/Sobrecoxa de Frango,2.91
+2024-02-03,Salsicha,2.24
+2024-02-03,Picanha,0.85
+2024-02-03,Linguiça Toscana,2.86
+2024-02-03,Salsicha,2.06
+2024-02-03,Costela Suína,1.13
+2024-02-03,Maminha,2.65
+2024-02-03,Coxa/Sobrecoxa de Frango,2.82
+2024-02-04,Costela Suína,1.56
+2024-02-04,Maminha,0.73
+2024-02-04,Coxa/Sobrecoxa de Frango,3.67
+2024-02-04,Linguiça Toscana,4.68
+2024-02-04,Costela Suína,2.14
+2024-02-04,Fraldinha,3.81
+2024-02-04,Picanha,3.04
+2024-02-04,Costela Suína,3.29
+2024-02-04,Linguiça Toscana,2.32
+2024-02-04,Contra Filé,1.26
+2024-02-04,Contra Filé,1.9
+2024-02-04,Fraldinha,3.43
+2024-02-04,Maminha,1.38
+2024-02-04,Coxa/Sobrecoxa de Frango,1.64
+2024-02-05,Contra Filé,3.17
+2024-02-05,Linguiça Toscana,1.65
+2024-02-05,Contra Filé,1.86
+2024-02-05,Maminha,0.93
+2024-02-05,Salsicha,1.43
+2024-02-06,Fraldinha,1.66
+2024-02-06,Contra Filé,2.38
+2024-02-06,Fraldinha,3.4
+2024-02-06,Coxa/Sobrecoxa de Frango,0.84
+2024-02-06,Carne Moída,2.97
+2024-02-07,Fraldinha,2.3
+2024-02-07,Maminha,1.15
+2024-02-07,Maminha,2.0
+2024-02-07,Salsicha,2.35
+2024-02-07,Fraldinha,2.67
+2024-02-08,Salsicha,3.68
+2024-02-08,Fraldinha,3.46
+2024-02-08,Maminha,2.4
+2024-02-08,Maminha,2.66
+2024-02-08,Contra Filé,2.44
+2024-02-08,Linguiça Toscana,1.27
+2024-02-08,Picanha,2.36
+2024-02-08,Contra Filé,0.79
+2024-02-08,Costela Suína,3.39
+2024-02-08,Contra Filé,2.21
+2024-02-08,Coxa/Sobrecoxa de Frango,2.51
+2024-02-08,Salsicha,3.33
+2024-02-08,Linguiça Toscana,1.25
+2024-02-09,Linguiça Toscana,4.57
+2024-02-09,Carne Moída,1.15
+2024-02-09,Maminha,2.75
+2024-02-09,Picanha,2.37
+2024-02-09,Maminha,1.68
+2024-02-09,Fraldinha,3.52
+2024-02-10,Contra Filé,0.94
+2024-02-10,Fraldinha,3.06
+2024-02-10,Coxa/Sobrecoxa de Frango,1.65
+2024-02-10,Linguiça Toscana,2.04
+2024-02-10,Maminha,1.61
+2024-02-10,Carne Moída,3.79
+2024-02-10,Coxa/Sobrecoxa de Frango,1.67
+2024-02-10,Costela Suína,1.79
+2024-02-10,Salsicha,3.67
+2024-02-10,Contra Filé,1.74
+2024-02-11,Fraldinha,1.73
+2024-02-11,Fraldinha,2.27
+2024-02-11,Contra Filé,3.01
+2024-02-11,Salsicha,2.91
+2024-02-11,Fraldinha,1.53
+2024-02-11,Contra Filé,0.97
+2024-02-11,Coxa/Sobrecoxa de Frango,0.84
+2024-02-11,Carne Moída,1.87
+2024-02-11,Contra Filé,2.66
+2024-02-11,Coxa/Sobrecoxa de Frango,3.22
+2024-02-11,Carne Moída,3.02
+2024-02-11,Fraldinha,1.45
+2024-02-11,Fraldinha,3.8
+2024-02-11,Linguiça Toscana,1.71
+2024-02-11,Coxa/Sobrecoxa de Frango,3.44
+2024-02-12,Picanha,1.01
+2024-02-12,Carne Moída,3.24
+2024-02-12,Maminha,2.96
+2024-02-12,Carne Moída,2.04
+2024-02-12,Salsicha,4.07
+2024-02-12,Picanha,2.53
+2024-02-12,Fraldinha,2.78
+2024-02-12,Coxa/Sobrecoxa de Frango,3.0
+2024-02-12,Linguiça Toscana,3.04
+2024-02-12,Maminha,0.68
+2024-02-12,Contra Filé,1.7
+2024-02-13,Contra Filé,1.9
+2024-02-13,Maminha,3.32
+2024-02-13,Costela Suína,3.31
+2024-02-13,Maminha,2.73
+2024-02-13,Costela Suína,2.24
+2024-02-13,Fraldinha,1.14
+2024-02-13,Picanha,1.78
+2024-02-13,Salsicha,4.0
+2024-02-13,Contra Filé,1.66
+2024-02-13,Costela Suína,2.13
+2024-02-13,Salsicha,4.86
+2024-02-13,Carne Moída,3.97
+2024-02-14,Fraldinha,3.63
+2024-02-14,Fraldinha,3.55
+2024-02-14,Carne Moída,1.13
+2024-02-14,Fraldinha,1.98
+2024-02-14,Coxa/Sobrecoxa de Frango,2.55
+2024-02-14,Costela Suína,2.01
+2024-02-14,Carne Moída,1.89
+2024-02-14,Coxa/Sobrecoxa de Frango,2.22
+2024-02-14,Contra Filé,2.15
+2024-02-14,Costela Suína,3.26
+2024-02-15,Maminha,0.85
+2024-02-15,Carne Moída,2.12
+2024-02-15,Linguiça Toscana,4.88
+2024-02-15,Maminha,1.57
+2024-02-15,Picanha,1.81
+2024-02-15,Contra Filé,3.14
+2024-02-15,Fraldinha,1.87
+2024-02-15,Linguiça Toscana,2.71
+2024-02-15,Carne Moída,1.65
+2024-02-15,Costela Suína,2.99
+2024-02-15,Picanha,0.77
+2024-02-15,Picanha,2.69
+2024-02-15,Picanha,1.8
+2024-02-15,Picanha,2.87
+2024-02-15,Coxa/Sobrecoxa de Frango,3.07
+2024-02-16,Salsicha,3.01
+2024-02-16,Salsicha,1.47
+2024-02-16,Coxa/Sobrecoxa de Frango,1.15
+2024-02-16,Salsicha,1.13
+2024-02-16,Salsicha,3.84
+2024-02-16,Linguiça Toscana,1.85
+2024-02-16,Maminha,1.93
+2024-02-16,Fraldinha,1.26
+2024-02-16,Carne Moída,2.06
+2024-02-16,Carne Moída,1.66
+2024-02-16,Coxa/Sobrecoxa de Frango,1.76
+2024-02-16,Coxa/Sobrecoxa de Frango,2.38
+2024-02-17,Fraldinha,3.13
+2024-02-17,Maminha,2.77
+2024-02-17,Fraldinha,3.66
+2024-02-17,Contra Filé,2.12
+2024-02-17,Contra Filé,3.42
+2024-02-17,Salsicha,1.66
+2024-02-17,Costela Suína,1.41
+2024-02-17,Contra Filé,2.8
+2024-02-17,Linguiça Toscana,3.54
+2024-02-18,Carne Moída,3.21
+2024-02-18,Fraldinha,1.55
+2024-02-18,Carne Moída,2.46
+2024-02-18,Picanha,2.6
+2024-02-18,Carne Moída,2.18
+2024-02-19,Contra Filé,1.92
+2024-02-19,Coxa/Sobrecoxa de Frango,1.88
+2024-02-19,Costela Suína,1.78
+2024-02-19,Carne Moída,2.58
+2024-02-19,Salsicha,2.87
+2024-02-19,Picanha,1.21
+2024-02-19,Coxa/Sobrecoxa de Frango,3.73
+2024-02-19,Picanha,1.21
+2024-02-19,Fraldinha,0.8
+2024-02-19,Fraldinha,3.17
+2024-02-19,Maminha,0.6
+2024-02-19,Linguiça Toscana,2.57
+2024-02-20,Contra Filé,0.63
+2024-02-20,Picanha,0.95
+2024-02-20,Carne Moída,3.24
+2024-02-20,Maminha,2.53
+2024-02-20,Coxa/Sobrecoxa de Frango,1.31
+2024-02-20,Costela Suína,1.88
+2024-02-20,Picanha,2.83
+2024-02-20,Picanha,1.9
+2024-02-21,Costela Suína,3.48
+2024-02-21,Maminha,0.55
+2024-02-21,Maminha,2.4
+2024-02-21,Contra Filé,2.29
+2024-02-21,Maminha,1.6
+2024-02-21,Carne Moída,0.82
+2024-02-21,Salsicha,1.03
+2024-02-21,Carne Moída,3.33
+2024-02-21,Maminha,3.07
+2024-02-21,Coxa/Sobrecoxa de Frango,3.66
+2024-02-21,Fraldinha,3.2
+2024-02-22,Carne Moída,2.94
+2024-02-22,Linguiça Toscana,3.44
+2024-02-22,Salsicha,3.75
+2024-02-22,Maminha,1.45
+2024-02-22,Linguiça Toscana,3.57
+2024-02-22,Coxa/Sobrecoxa de Frango,3.34
+2024-02-22,Salsicha,2.44
+2024-02-22,Carne Moída,1.37
+2024-02-22,Coxa/Sobrecoxa de Frango,3.08
+2024-02-22,Costela Suína,1.49
+2024-02-22,Picanha,3.26
+2024-02-22,Contra Filé,2.53
+2024-02-22,Fraldinha,1.07
+2024-02-22,Contra Filé,2.47
+2024-02-23,Picanha,3.25
+2024-02-23,Maminha,1.51
+2024-02-23,Coxa/Sobrecoxa de Frango,1.23
+2024-02-23,Fraldinha,2.9
+2024-02-23,Linguiça Toscana,2.26
+2024-02-23,Fraldinha,2.73
+2024-02-23,Coxa/Sobrecoxa de Frango,1.78
+2024-02-23,Salsicha,1.07
+2024-02-23,Salsicha,4.22
+2024-02-24,Picanha,3.23
+2024-02-24,Costela Suína,3.67
+2024-02-24,Coxa/Sobrecoxa de Frango,3.23
+2024-02-24,Costela Suína,2.31
+2024-02-24,Picanha,2.53
+2024-02-24,Contra Filé,2.82
+2024-02-24,Linguiça Toscana,2.95
+2024-02-24,Linguiça Toscana,2.94
+2024-02-24,Costela Suína,1.07
+2024-02-25,Fraldinha,2.4
+2024-02-25,Fraldinha,1.47
+2024-02-25,Maminha,3.15
+2024-02-25,Picanha,2.85
+2024-02-25,Picanha,2.12
+2024-02-25,Coxa/Sobrecoxa de Frango,0.89
+2024-02-25,Costela Suína,1.29
+2024-02-25,Costela Suína,3.68
+2024-02-25,Carne Moída,1.81
+2024-02-25,Picanha,2.41
+2024-02-26,Salsicha,3.57
+2024-02-26,Contra Filé,1.4
+2024-02-26,Costela Suína,2.27
+2024-02-26,Salsicha,1.23
+2024-02-26,Linguiça Toscana,1.99
+2024-02-26,Carne Moída,1.56
+2024-02-26,Linguiça Toscana,1.37
+2024-02-26,Picanha,2.07
+2024-02-26,Fraldinha,3.76
+2024-02-26,Contra Filé,2.55
+2024-02-27,Contra Filé,1.07
+2024-02-27,Carne Moída,3.39
+2024-02-27,Maminha,2.4
+2024-02-27,Salsicha,2.69
+2024-02-27,Contra Filé,1.87
+2024-02-27,Coxa/Sobrecoxa de Frango,2.43
+2024-02-27,Costela Suína,2.06
+2024-02-27,Costela Suína,0.84
+2024-02-27,Contra Filé,1.25
+2024-02-27,Linguiça Toscana,1.91
+2024-02-27,Coxa/Sobrecoxa de Frango,3.93
+2024-02-27,Costela Suína,1.4
+2024-02-27,Maminha,2.58
+2024-02-28,Linguiça Toscana,2.08
+2024-02-28,Linguiça Toscana,3.83
+2024-02-28,Costela Suína,2.14
+2024-02-28,Fraldinha,2.08
+2024-02-28,Picanha,0.81
+2024-02-28,Picanha,0.84
+2024-02-28,Carne Moída,2.28
+2024-02-28,Coxa/Sobrecoxa de Frango,1.03
+2024-02-28,Costela Suína,2.07
+2024-02-28,Picanha,1.15
+2024-02-28,Fraldinha,2.13
+2024-02-28,Contra Filé,1.71
+2024-02-29,Linguiça Toscana,3.91
+2024-02-29,Fraldinha,2.15
+2024-02-29,Coxa/Sobrecoxa de Frango,1.77
+2024-02-29,Maminha,1.84
+2024-02-29,Picanha,2.6
+2024-02-29,Coxa/Sobrecoxa de Frango,1.77
+2024-02-29,Maminha,3.14
+2024-02-29,Picanha,1.79
+2024-03-01,Picanha,1.2
+2024-03-01,Coxa/Sobrecoxa de Frango,2.21
+2024-03-01,Salsicha,1.28
+2024-03-01,Picanha,2.31
+2024-03-01,Costela Suína,3.56
+2024-03-01,Coxa/Sobrecoxa de Frango,1.54
+2024-03-01,Salsicha,4.35
+2024-03-01,Coxa/Sobrecoxa de Frango,2.44
+2024-03-01,Coxa/Sobrecoxa de Frango,2.66
+2024-03-01,Salsicha,2.8
+2024-03-01,Contra Filé,3.18
+2024-03-01,Linguiça Toscana,3.22
+2024-03-01,Contra Filé,1.91
+2024-03-01,Contra Filé,0.8
+2024-03-02,Maminha,1.77
+2024-03-02,Carne Moída,2.09
+2024-03-02,Contra Filé,3.0
+2024-03-02,Coxa/Sobrecoxa de Frango,1.95
+2024-03-02,Coxa/Sobrecoxa de Frango,2.04
+2024-03-02,Linguiça Toscana,1.72
+2024-03-02,Coxa/Sobrecoxa de Frango,0.94
+2024-03-02,Contra Filé,1.59
+2024-03-02,Salsicha,1.83
+2024-03-02,Maminha,3.07
+2024-03-02,Fraldinha,2.65
+2024-03-03,Contra Filé,1.5
+2024-03-03,Contra Filé,0.81
+2024-03-03,Fraldinha,2.86
+2024-03-03,Fraldinha,1.35
+2024-03-03,Picanha,2.1
+2024-03-03,Salsicha,1.92
+2024-03-04,Maminha,0.64
+2024-03-04,Fraldinha,0.92
+2024-03-04,Picanha,3.28
+2024-03-04,Fraldinha,2.83
+2024-03-04,Salsicha,2.44
+2024-03-04,Costela Suína,2.48
+2024-03-04,Fraldinha,3.19
+2024-03-04,Coxa/Sobrecoxa de Frango,3.31
+2024-03-05,Maminha,2.41
+2024-03-05,Contra Filé,0.59
+2024-03-05,Carne Moída,3.52
+2024-03-05,Linguiça Toscana,1.46
+2024-03-05,Costela Suína,2.27
+2024-03-05,Linguiça Toscana,1.69
+2024-03-05,Salsicha,3.16
+2024-03-05,Picanha,2.49
+2024-03-05,Coxa/Sobrecoxa de Frango,2.95
+2024-03-05,Salsicha,1.45
+2024-03-05,Carne Moída,1.32
+2024-03-05,Carne Moída,3.45
+2024-03-05,Costela Suína,1.88
+2024-03-05,Coxa/Sobrecoxa de Frango,4.0
+2024-03-05,Salsicha,4.82
+2024-03-06,Picanha,2.58
+2024-03-06,Carne Moída,3.86
+2024-03-06,Maminha,0.86
+2024-03-06,Coxa/Sobrecoxa de Frango,3.6
+2024-03-06,Fraldinha,2.74
+2024-03-06,Picanha,1.51
+2024-03-06,Costela Suína,3.44
+2024-03-06,Fraldinha,2.54
+2024-03-06,Maminha,1.3
+2024-03-06,Linguiça Toscana,4.18
+2024-03-06,Carne Moída,2.74
+2024-03-07,Costela Suína,2.63
+2024-03-07,Linguiça Toscana,1.09
+2024-03-07,Maminha,3.41
+2024-03-07,Maminha,1.28
+2024-03-07,Linguiça Toscana,4.65
+2024-03-07,Contra Filé,2.54
+2024-03-07,Carne Moída,1.15
+2024-03-07,Picanha,3.04
+2024-03-07,Costela Suína,1.7
+2024-03-07,Picanha,1.28
+2024-03-08,Contra Filé,1.77
+2024-03-08,Costela Suína,1.42
+2024-03-08,Costela Suína,1.38
+2024-03-08,Contra Filé,2.34
+2024-03-08,Costela Suína,2.94
+2024-03-08,Contra Filé,0.9
+2024-03-08,Carne Moída,1.66
+2024-03-08,Picanha,2.97
+2024-03-08,Fraldinha,1.48
+2024-03-08,Costela Suína,1.43
+2024-03-08,Salsicha,3.54
+2024-03-08,Maminha,1.25
+2024-03-08,Linguiça Toscana,4.26
+2024-03-09,Carne Moída,0.89
+2024-03-09,Linguiça Toscana,4.96
+2024-03-09,Fraldinha,2.91
+2024-03-09,Picanha,2.71
+2024-03-09,Linguiça Toscana,1.24
+2024-03-09,Coxa/Sobrecoxa de Frango,2.29
+2024-03-09,Maminha,0.68
+2024-03-09,Coxa/Sobrecoxa de Frango,3.21
+2024-03-09,Maminha,2.02
+2024-03-09,Coxa/Sobrecoxa de Frango,1.36
+2024-03-09,Costela Suína,3.76
+2024-03-10,Costela Suína,3.24
+2024-03-10,Coxa/Sobrecoxa de Frango,1.34
+2024-03-10,Salsicha,4.61
+2024-03-10,Coxa/Sobrecoxa de Frango,2.35
+2024-03-10,Picanha,2.49
+2024-03-10,Costela Suína,2.88
+2024-03-10,Fraldinha,3.73
+2024-03-10,Carne Moída,1.0
+2024-03-10,Linguiça Toscana,2.89
+2024-03-11,Contra Filé,1.02
+2024-03-11,Costela Suína,2.48
+2024-03-11,Contra Filé,0.52
+2024-03-11,Carne Moída,1.24
+2024-03-11,Picanha,2.27
+2024-03-11,Maminha,3.15
+2024-03-11,Costela Suína,2.17
+2024-03-11,Salsicha,1.44
+2024-03-11,Maminha,2.75
+2024-03-11,Maminha,0.8
+2024-03-11,Contra Filé,3.0
+2024-03-11,Fraldinha,3.79
+2024-03-11,Coxa/Sobrecoxa de Frango,3.87
+2024-03-12,Costela Suína,3.4
+2024-03-12,Carne Moída,3.19
+2024-03-12,Picanha,2.03
+2024-03-12,Contra Filé,3.37
+2024-03-12,Maminha,2.84
+2024-03-12,Costela Suína,3.94
+2024-03-12,Linguiça Toscana,1.77
+2024-03-12,Carne Moída,1.17
+2024-03-12,Maminha,2.96
+2024-03-12,Carne Moída,1.4
+2024-03-12,Fraldinha,1.32
+2024-03-12,Coxa/Sobrecoxa de Frango,2.99
+2024-03-12,Linguiça Toscana,2.49
+2024-03-13,Coxa/Sobrecoxa de Frango,3.61
+2024-03-13,Coxa/Sobrecoxa de Frango,2.31
+2024-03-13,Carne Moída,2.88
+2024-03-13,Carne Moída,2.11
+2024-03-13,Linguiça Toscana,1.92
+2024-03-13,Carne Moída,2.82
+2024-03-13,Coxa/Sobrecoxa de Frango,2.26
+2024-03-13,Picanha,3.47
+2024-03-13,Coxa/Sobrecoxa de Frango,2.2
+2024-03-13,Picanha,3.33
+2024-03-13,Carne Moída,2.67
+2024-03-13,Contra Filé,1.66
+2024-03-14,Costela Suína,1.08
+2024-03-14,Linguiça Toscana,1.25
+2024-03-14,Linguiça Toscana,3.36
+2024-03-14,Contra Filé,1.8
+2024-03-14,Linguiça Toscana,4.4
+2024-03-14,Picanha,2.45
+2024-03-14,Maminha,0.5
+2024-03-14,Picanha,0.77
+2024-03-14,Coxa/Sobrecoxa de Frango,1.01
+2024-03-14,Salsicha,1.49
+2024-03-14,Contra Filé,2.28
+2024-03-14,Costela Suína,1.56
+2024-03-14,Picanha,2.93
+2024-03-14,Fraldinha,3.81
+2024-03-15,Fraldinha,1.96
+2024-03-15,Contra Filé,1.73
+2024-03-15,Costela Suína,2.51
+2024-03-15,Picanha,1.32
+2024-03-15,Coxa/Sobrecoxa de Frango,2.02
+2024-03-15,Costela Suína,0.99
+2024-03-15,Fraldinha,3.92
+2024-03-15,Salsicha,3.76
+2024-03-15,Carne Moída,1.45
+2024-03-15,Contra Filé,1.57
+2024-03-16,Coxa/Sobrecoxa de Frango,1.14
+2024-03-16,Picanha,3.38
+2024-03-16,Costela Suína,3.15
+2024-03-16,Picanha,2.38
+2024-03-16,Carne Moída,2.31
+2024-03-16,Coxa/Sobrecoxa de Frango,3.22
+2024-03-16,Picanha,1.27
+2024-03-16,Picanha,1.61
+2024-03-16,Contra Filé,1.91
+2024-03-16,Coxa/Sobrecoxa de Frango,1.46
+2024-03-16,Fraldinha,1.24
+2024-03-16,Contra Filé,1.72
+2024-03-16,Fraldinha,1.08
+2024-03-17,Coxa/Sobrecoxa de Frango,1.56
+2024-03-17,Picanha,2.74
+2024-03-17,Coxa/Sobrecoxa de Frango,3.56
+2024-03-17,Contra Filé,3.15
+2024-03-17,Linguiça Toscana,3.14
+2024-03-17,Coxa/Sobrecoxa de Frango,2.67
+2024-03-17,Salsicha,3.98
+2024-03-17,Contra Filé,2.81
+2024-03-17,Contra Filé,0.9
+2024-03-18,Fraldinha,1.23
+2024-03-18,Carne Moída,3.2
+2024-03-18,Fraldinha,2.71
+2024-03-18,Maminha,3.08
+2024-03-18,Picanha,2.99
+2024-03-18,Fraldinha,1.71
+2024-03-18,Linguiça Toscana,1.96
+2024-03-18,Picanha,2.47
+2024-03-18,Picanha,1.83
+2024-03-18,Contra Filé,1.75
+2024-03-18,Maminha,1.69
+2024-03-18,Maminha,2.2
+2024-03-18,Picanha,2.88
+2024-03-18,Salsicha,1.82
+2024-03-19,Contra Filé,1.85
+2024-03-19,Costela Suína,1.57
+2024-03-19,Contra Filé,2.12
+2024-03-19,Maminha,0.98
+2024-03-19,Carne Moída,1.99
+2024-03-19,Picanha,1.45
+2024-03-19,Coxa/Sobrecoxa de Frango,3.12
+2024-03-19,Maminha,0.97
+2024-03-19,Linguiça Toscana,1.45
+2024-03-19,Linguiça Toscana,4.82
+2024-03-19,Picanha,1.47
+2024-03-19,Fraldinha,2.95
+2024-03-20,Picanha,1.23
+2024-03-20,Maminha,2.58
+2024-03-20,Maminha,1.43
+2024-03-20,Fraldinha,2.14
+2024-03-20,Coxa/Sobrecoxa de Frango,1.31
+2024-03-20,Carne Moída,0.82
+2024-03-20,Contra Filé,1.78
+2024-03-20,Fraldinha,1.52
+2024-03-21,Maminha,3.4
+2024-03-21,Picanha,2.59
+2024-03-21,Linguiça Toscana,1.78
+2024-03-21,Linguiça Toscana,2.81
+2024-03-21,Costela Suína,0.91
+2024-03-21,Fraldinha,1.67
+2024-03-21,Linguiça Toscana,2.88
+2024-03-21,Contra Filé,2.91
+2024-03-21,Costela Suína,2.55
+2024-03-21,Fraldinha,2.83
+2024-03-21,Maminha,0.75
+2024-03-21,Salsicha,2.66
+2024-03-22,Carne Moída,3.45
+2024-03-22,Salsicha,4.49
+2024-03-22,Linguiça Toscana,1.66
+2024-03-22,Fraldinha,3.57
+2024-03-22,Fraldinha,2.33
+2024-03-22,Picanha,2.82
+2024-03-22,Costela Suína,3.79
+2024-03-22,Maminha,1.58
+2024-03-22,Picanha,2.52
+2024-03-22,Coxa/Sobrecoxa de Frango,1.38
+2024-03-22,Costela Suína,1.7
+2024-03-23,Contra Filé,1.12
+2024-03-23,Coxa/Sobrecoxa de Frango,2.0
+2024-03-23,Carne Moída,0.81
+2024-03-23,Costela Suína,2.07
+2024-03-23,Linguiça Toscana,4.75
+2024-03-23,Carne Moída,1.5
+2024-03-23,Contra Filé,1.03
+2024-03-24,Coxa/Sobrecoxa de Frango,0.88
+2024-03-24,Coxa/Sobrecoxa de Frango,3.66
+2024-03-24,Coxa/Sobrecoxa de Frango,2.77
+2024-03-24,Picanha,2.43
+2024-03-24,Costela Suína,2.13
+2024-03-24,Maminha,0.51
+2024-03-24,Salsicha,2.92
+2024-03-24,Fraldinha,2.81
+2024-03-24,Linguiça Toscana,2.53
+2024-03-24,Linguiça Toscana,3.39
+2024-03-24,Coxa/Sobrecoxa de Frango,2.1
+2024-03-24,Costela Suína,2.26
+2024-03-24,Picanha,2.97
+2024-03-24,Carne Moída,2.85
+2024-03-25,Maminha,3.43
+2024-03-25,Picanha,3.4
+2024-03-25,Linguiça Toscana,3.22
+2024-03-25,Fraldinha,1.0
+2024-03-25,Linguiça Toscana,1.64
+2024-03-25,Contra Filé,2.24
+2024-03-25,Costela Suína,1.79
+2024-03-25,Fraldinha,3.23
+2024-03-25,Contra Filé,1.69
+2024-03-25,Salsicha,1.93
+2024-03-25,Fraldinha,2.74
+2024-03-25,Salsicha,2.92
+2024-03-25,Costela Suína,3.0
+2024-03-25,Maminha,2.63
+2024-03-26,Salsicha,1.87
+2024-03-26,Linguiça Toscana,2.43
+2024-03-26,Fraldinha,3.39
+2024-03-26,Salsicha,3.74
+2024-03-26,Linguiça Toscana,2.39
+2024-03-26,Salsicha,3.41
+2024-03-26,Maminha,2.42
+2024-03-26,Costela Suína,2.4
+2024-03-26,Linguiça Toscana,3.26
+2024-03-26,Coxa/Sobrecoxa de Frango,0.92
+2024-03-26,Maminha,2.81
+2024-03-26,Salsicha,4.07
+2024-03-26,Salsicha,2.89
+2024-03-26,Contra Filé,1.18
+2024-03-27,Carne Moída,0.89
+2024-03-27,Picanha,2.96
+2024-03-27,Carne Moída,2.69
+2024-03-27,Linguiça Toscana,1.63
+2024-03-27,Fraldinha,2.49
+2024-03-27,Carne Moída,1.9
+2024-03-27,Costela Suína,2.88
+2024-03-27,Maminha,1.02
+2024-03-27,Picanha,3.21
+2024-03-27,Maminha,1.4
+2024-03-27,Salsicha,1.8
+2024-03-27,Coxa/Sobrecoxa de Frango,1.02
+2024-03-27,Coxa/Sobrecoxa de Frango,2.48
+2024-03-27,Costela Suína,3.83
+2024-03-28,Contra Filé,2.51
+2024-03-28,Costela Suína,1.66
+2024-03-28,Picanha,2.73
+2024-03-28,Maminha,3.26
+2024-03-28,Carne Moída,1.75
+2024-03-28,Costela Suína,1.86
+2024-03-28,Carne Moída,2.2
+2024-03-28,Salsicha,2.02
+2024-03-28,Coxa/Sobrecoxa de Frango,2.95
+2024-03-28,Carne Moída,3.29
+2024-03-28,Coxa/Sobrecoxa de Frango,3.16
+2024-03-28,Carne Moída,2.47
+2024-03-29,Picanha,0.76
+2024-03-29,Carne Moída,3.44
+2024-03-29,Fraldinha,2.19
+2024-03-29,Linguiça Toscana,1.32
+2024-03-29,Costela Suína,1.7
+2024-03-29,Contra Filé,2.74
+2024-03-29,Coxa/Sobrecoxa de Frango,2.27
+2024-03-29,Costela Suína,1.05
+2024-03-29,Maminha,1.91
+2024-03-29,Picanha,3.32
+2024-03-29,Costela Suína,2.43
+2024-03-29,Salsicha,3.22
+2024-03-29,Salsicha,2.95
+2024-03-29,Coxa/Sobrecoxa de Frango,2.68
+2024-03-30,Carne Moída,2.11
+2024-03-30,Salsicha,1.84
+2024-03-30,Costela Suína,0.88
+2024-03-30,Costela Suína,0.99
+2024-03-30,Contra Filé,3.14
+2024-03-30,Coxa/Sobrecoxa de Frango,2.05
+2024-03-31,Coxa/Sobrecoxa de Frango,1.78
+2024-03-31,Costela Suína,1.84
+2024-03-31,Linguiça Toscana,3.77
+2024-03-31,Linguiça Toscana,4.53
+2024-03-31,Coxa/Sobrecoxa de Frango,3.99
+2024-03-31,Coxa/Sobrecoxa de Frango,3.61
+2024-03-31,Contra Filé,0.56
+2024-03-31,Fraldinha,3.8
+2024-03-31,Linguiça Toscana,3.97
+2024-03-31,Maminha,3.18
+2024-03-31,Maminha,0.63
+2024-03-31,Maminha,1.02
+2024-03-31,Salsicha,2.99
+2024-03-31,Picanha,0.56
+2024-04-01,Costela Suína,1.18
+2024-04-01,Linguiça Toscana,3.29
+2024-04-01,Contra Filé,1.51
+2024-04-01,Costela Suína,1.96
+2024-04-01,Coxa/Sobrecoxa de Frango,2.5
+2024-04-01,Picanha,2.82
+2024-04-01,Maminha,1.29
+2024-04-02,Carne Moída,1.55
+2024-04-02,Picanha,1.14
+2024-04-02,Carne Moída,2.38
+2024-04-02,Picanha,1.38
+2024-04-02,Carne Moída,1.45
+2024-04-02,Fraldinha,1.15
+2024-04-02,Fraldinha,2.12
+2024-04-02,Contra Filé,0.92
+2024-04-03,Contra Filé,1.29
+2024-04-03,Fraldinha,3.38
+2024-04-03,Carne Moída,2.32
+2024-04-03,Maminha,0.51
+2024-04-03,Maminha,2.58
+2024-04-04,Salsicha,1.9
+2024-04-04,Contra Filé,3.49
+2024-04-04,Salsicha,3.63
+2024-04-04,Carne Moída,2.77
+2024-04-04,Costela Suína,2.16
+2024-04-04,Carne Moída,2.9
+2024-04-05,Costela Suína,2.94
+2024-04-05,Coxa/Sobrecoxa de Frango,1.5
+2024-04-05,Fraldinha,3.83
+2024-04-05,Coxa/Sobrecoxa de Frango,3.39
+2024-04-05,Picanha,2.06
+2024-04-05,Maminha,0.77
+2024-04-05,Fraldinha,1.71
+2024-04-05,Costela Suína,2.11
+2024-04-05,Linguiça Toscana,4.56
+2024-04-06,Fraldinha,3.6
+2024-04-06,Contra Filé,3.0
+2024-04-06,Fraldinha,2.44
+2024-04-06,Fraldinha,2.2
+2024-04-06,Picanha,0.71
+2024-04-06,Costela Suína,2.77
+2024-04-06,Fraldinha,2.36
+2024-04-06,Fraldinha,2.92
+2024-04-06,Contra Filé,1.49
+2024-04-06,Linguiça Toscana,5.0
+2024-04-06,Carne Moída,2.46
+2024-04-06,Linguiça Toscana,4.75
+2024-04-06,Maminha,3.15
+2024-04-06,Contra Filé,1.1
+2024-04-07,Costela Suína,3.13
+2024-04-07,Salsicha,2.53
+2024-04-07,Salsicha,2.32
+2024-04-07,Linguiça Toscana,1.11
+2024-04-07,Contra Filé,1.88
+2024-04-07,Picanha,1.15
+2024-04-08,Maminha,1.64
+2024-04-08,Carne Moída,1.64
+2024-04-08,Maminha,2.37
+2024-04-08,Picanha,2.01
+2024-04-08,Costela Suína,1.67
+2024-04-08,Costela Suína,2.03
+2024-04-08,Picanha,1.86
+2024-04-08,Coxa/Sobrecoxa de Frango,3.02
+2024-04-08,Costela Suína,1.75
+2024-04-08,Maminha,1.77
+2024-04-08,Coxa/Sobrecoxa de Frango,2.31
+2024-04-08,Costela Suína,2.94
+2024-04-08,Coxa/Sobrecoxa de Frango,3.46
+2024-04-08,Contra Filé,2.82
+2024-04-08,Salsicha,1.6
+2024-04-09,Salsicha,2.54
+2024-04-09,Fraldinha,2.88
+2024-04-09,Salsicha,1.35
+2024-04-09,Linguiça Toscana,3.16
+2024-04-09,Costela Suína,1.66
+2024-04-10,Contra Filé,2.6
+2024-04-10,Costela Suína,2.42
+2024-04-10,Salsicha,3.97
+2024-04-10,Carne Moída,2.76
+2024-04-10,Fraldinha,3.36
+2024-04-10,Maminha,1.28
+2024-04-10,Salsicha,2.86
+2024-04-10,Linguiça Toscana,4.11
+2024-04-10,Carne Moída,3.52
+2024-04-10,Picanha,3.36
+2024-04-10,Picanha,3.38
+2024-04-10,Fraldinha,3.23
+2024-04-10,Linguiça Toscana,2.91
+2024-04-10,Fraldinha,3.8
+2024-04-11,Linguiça Toscana,3.49
+2024-04-11,Fraldinha,0.97
+2024-04-11,Coxa/Sobrecoxa de Frango,3.36
+2024-04-11,Carne Moída,2.26
+2024-04-11,Contra Filé,1.43
+2024-04-11,Contra Filé,2.15
+2024-04-11,Coxa/Sobrecoxa de Frango,1.81
+2024-04-11,Maminha,2.16
+2024-04-11,Picanha,3.09
+2024-04-11,Picanha,3.13
+2024-04-11,Contra Filé,2.54
+2024-04-11,Maminha,1.56
+2024-04-11,Coxa/Sobrecoxa de Frango,2.37
+2024-04-12,Coxa/Sobrecoxa de Frango,3.1
+2024-04-12,Fraldinha,0.81
+2024-04-12,Maminha,1.26
+2024-04-12,Contra Filé,3.21
+2024-04-12,Contra Filé,1.68
+2024-04-12,Picanha,2.07
+2024-04-12,Maminha,2.8
+2024-04-12,Coxa/Sobrecoxa de Frango,2.2
+2024-04-12,Carne Moída,2.05
+2024-04-12,Maminha,1.48
+2024-04-12,Salsicha,1.61
+2024-04-12,Coxa/Sobrecoxa de Frango,1.91
+2024-04-12,Picanha,2.06
+2024-04-12,Contra Filé,3.19
+2024-04-12,Fraldinha,2.9
+2024-04-13,Maminha,2.43
+2024-04-13,Linguiça Toscana,4.52
+2024-04-13,Carne Moída,2.06
+2024-04-13,Coxa/Sobrecoxa de Frango,1.63
+2024-04-13,Maminha,2.39
+2024-04-13,Linguiça Toscana,1.51
+2024-04-13,Linguiça Toscana,2.2
+2024-04-13,Costela Suína,1.46
+2024-04-13,Salsicha,4.1
+2024-04-13,Salsicha,1.1
+2024-04-13,Costela Suína,2.52
+2024-04-13,Fraldinha,3.29
+2024-04-13,Carne Moída,1.09
+2024-04-14,Maminha,2.22
+2024-04-14,Linguiça Toscana,4.73
+2024-04-14,Maminha,0.7
+2024-04-14,Picanha,1.71
+2024-04-14,Carne Moída,1.71
+2024-04-14,Linguiça Toscana,4.36
+2024-04-14,Carne Moída,1.63
+2024-04-14,Contra Filé,1.55
+2024-04-15,Salsicha,3.59
+2024-04-15,Maminha,2.49
+2024-04-15,Contra Filé,0.84
+2024-04-15,Linguiça Toscana,4.14
+2024-04-15,Fraldinha,2.14
+2024-04-15,Fraldinha,3.35
+2024-04-15,Contra Filé,1.67
+2024-04-15,Contra Filé,2.24
+2024-04-16,Costela Suína,3.37
+2024-04-16,Linguiça Toscana,3.83
+2024-04-16,Salsicha,1.89
+2024-04-16,Picanha,2.92
+2024-04-16,Linguiça Toscana,2.34
+2024-04-16,Carne Moída,2.86
+2024-04-16,Picanha,2.93
+2024-04-17,Carne Moída,1.68
+2024-04-17,Carne Moída,3.67
+2024-04-17,Carne Moída,1.45
+2024-04-17,Coxa/Sobrecoxa de Frango,2.21
+2024-04-17,Linguiça Toscana,2.48
+2024-04-17,Maminha,0.84
+2024-04-17,Carne Moída,2.82
+2024-04-17,Picanha,2.18
+2024-04-17,Carne Moída,1.27
+2024-04-17,Carne Moída,1.69
+2024-04-17,Salsicha,3.99
+2024-04-17,Coxa/Sobrecoxa de Frango,3.74
+2024-04-18,Fraldinha,2.79
+2024-04-18,Linguiça Toscana,2.58
+2024-04-18,Maminha,3.23
+2024-04-18,Maminha,2.52
+2024-04-18,Picanha,2.03
+2024-04-18,Carne Moída,1.94
+2024-04-18,Coxa/Sobrecoxa de Frango,1.64
+2024-04-18,Linguiça Toscana,2.9
+2024-04-18,Contra Filé,1.03
+2024-04-18,Maminha,2.9
+2024-04-18,Coxa/Sobrecoxa de Frango,1.03
+2024-04-18,Picanha,1.84
+2024-04-18,Salsicha,1.64
+2024-04-19,Contra Filé,0.52
+2024-04-19,Fraldinha,2.11
+2024-04-19,Maminha,1.79
+2024-04-19,Costela Suína,2.56
+2024-04-19,Contra Filé,2.67
+2024-04-19,Costela Suína,3.71
+2024-04-20,Picanha,1.73
+2024-04-20,Linguiça Toscana,2.74
+2024-04-20,Costela Suína,3.28
+2024-04-20,Linguiça Toscana,3.96
+2024-04-20,Linguiça Toscana,4.14
+2024-04-20,Costela Suína,1.24
+2024-04-20,Fraldinha,1.66
+2024-04-20,Linguiça Toscana,4.07
+2024-04-21,Salsicha,2.66
+2024-04-21,Fraldinha,1.78
+2024-04-21,Costela Suína,1.77
+2024-04-21,Maminha,0.93
+2024-04-21,Fraldinha,3.32
+2024-04-21,Linguiça Toscana,3.68
+2024-04-21,Salsicha,1.58
+2024-04-21,Picanha,2.92
+2024-04-21,Salsicha,3.53
+2024-04-21,Linguiça Toscana,2.04
+2024-04-21,Costela Suína,2.25
+2024-04-21,Fraldinha,2.42
+2024-04-21,Contra Filé,0.8
+2024-04-21,Maminha,1.88
+2024-04-21,Contra Filé,3.24
+2024-04-22,Salsicha,2.71
+2024-04-22,Picanha,1.18
+2024-04-22,Maminha,2.39
+2024-04-22,Coxa/Sobrecoxa de Frango,1.74
+2024-04-22,Costela Suína,2.92
+2024-04-23,Salsicha,3.23
+2024-04-23,Maminha,2.94
+2024-04-23,Salsicha,3.48
+2024-04-23,Maminha,3.13
+2024-04-23,Linguiça Toscana,1.49
+2024-04-23,Linguiça Toscana,2.66
+2024-04-23,Coxa/Sobrecoxa de Frango,1.77
+2024-04-23,Maminha,2.84
+2024-04-24,Coxa/Sobrecoxa de Frango,1.85
+2024-04-24,Linguiça Toscana,1.39
+2024-04-24,Carne Moída,3.11
+2024-04-24,Costela Suína,2.45
+2024-04-24,Salsicha,3.41
+2024-04-24,Carne Moída,2.57
+2024-04-24,Costela Suína,3.62
+2024-04-24,Picanha,3.3
+2024-04-24,Coxa/Sobrecoxa de Frango,3.36
+2024-04-24,Maminha,0.51
+2024-04-24,Coxa/Sobrecoxa de Frango,3.58
+2024-04-24,Fraldinha,1.3
+2024-04-24,Carne Moída,3.33
+2024-04-24,Salsicha,3.63
+2024-04-24,Carne Moída,3.61
+2024-04-25,Maminha,1.38
+2024-04-25,Linguiça Toscana,1.12
+2024-04-25,Carne Moída,1.17
+2024-04-25,Linguiça Toscana,4.23
+2024-04-25,Maminha,0.88
+2024-04-25,Picanha,0.94
+2024-04-25,Coxa/Sobrecoxa de Frango,1.3
+2024-04-25,Linguiça Toscana,2.44
+2024-04-25,Coxa/Sobrecoxa de Frango,1.09
+2024-04-26,Maminha,0.7
+2024-04-26,Coxa/Sobrecoxa de Frango,2.3
+2024-04-26,Maminha,1.18
+2024-04-26,Costela Suína,2.76
+2024-04-26,Costela Suína,2.21
+2024-04-26,Linguiça Toscana,1.2
+2024-04-26,Costela Suína,1.65
+2024-04-26,Coxa/Sobrecoxa de Frango,3.95
+2024-04-26,Maminha,2.86
+2024-04-26,Coxa/Sobrecoxa de Frango,1.4
+2024-04-26,Costela Suína,2.78
+2024-04-26,Salsicha,4.38
+2024-04-26,Contra Filé,3.24
+2024-04-26,Carne Moída,3.66
+2024-04-27,Costela Suína,2.64
+2024-04-27,Coxa/Sobrecoxa de Frango,2.12
+2024-04-27,Salsicha,1.94
+2024-04-27,Costela Suína,2.63
+2024-04-27,Salsicha,2.21
+2024-04-27,Salsicha,2.81
+2024-04-27,Contra Filé,0.6
+2024-04-27,Carne Moída,3.02
+2024-04-27,Maminha,0.62
+2024-04-28,Salsicha,4.22
+2024-04-28,Maminha,0.81
+2024-04-28,Salsicha,1.87
+2024-04-28,Contra Filé,2.22
+2024-04-28,Fraldinha,1.41
+2024-04-28,Costela Suína,2.0
+2024-04-28,Costela Suína,1.27
+2024-04-29,Linguiça Toscana,1.92
+2024-04-29,Fraldinha,3.28
+2024-04-29,Picanha,0.62
+2024-04-29,Contra Filé,2.4
+2024-04-29,Maminha,2.61
+2024-04-29,Maminha,2.76
+2024-04-29,Coxa/Sobrecoxa de Frango,2.09
+2024-04-29,Maminha,1.62
+2024-04-29,Coxa/Sobrecoxa de Frango,2.47
+2024-04-29,Linguiça Toscana,2.42
+2024-04-29,Coxa/Sobrecoxa de Frango,3.57
+2024-04-29,Picanha,2.53
+2024-04-30,Linguiça Toscana,2.26
+2024-04-30,Fraldinha,2.67
+2024-04-30,Carne Moída,2.85
+2024-04-30,Maminha,0.58
+2024-04-30,Coxa/Sobrecoxa de Frango,2.07
+2024-04-30,Linguiça Toscana,3.64
+2024-04-30,Contra Filé,1.66
+2024-04-30,Fraldinha,3.77
+2024-04-30,Coxa/Sobrecoxa de Frango,2.93
+2024-04-30,Costela Suína,3.86
+2024-04-30,Carne Moída,1.86
+2024-04-30,Coxa/Sobrecoxa de Frango,2.1
+2024-04-30,Maminha,2.3
+2024-05-01,Carne Moída,1.41
+2024-05-01,Maminha,1.33
+2024-05-01,Maminha,3.31
+2024-05-01,Picanha,0.7
+2024-05-01,Coxa/Sobrecoxa de Frango,3.22
+2024-05-01,Maminha,3.3
+2024-05-01,Linguiça Toscana,2.92
+2024-05-01,Fraldinha,2.14
+2024-05-01,Costela Suína,3.74
+2024-05-01,Fraldinha,3.33
+2024-05-01,Costela Suína,1.83
+2024-05-01,Maminha,2.35
+2024-05-01,Carne Moída,2.2
+2024-05-02,Costela Suína,2.68
+2024-05-02,Salsicha,1.47
+2024-05-02,Carne Moída,3.26
+2024-05-02,Linguiça Toscana,1.52
+2024-05-02,Picanha,1.93
+2024-05-02,Carne Moída,2.95
+2024-05-02,Fraldinha,2.21
+2024-05-02,Costela Suína,2.16
+2024-05-02,Maminha,0.85
+2024-05-03,Costela Suína,0.81
+2024-05-03,Fraldinha,0.92
+2024-05-03,Linguiça Toscana,4.45
+2024-05-03,Maminha,3.37
+2024-05-03,Fraldinha,3.83
+2024-05-04,Carne Moída,2.81
+2024-05-04,Costela Suína,3.05
+2024-05-04,Contra Filé,2.67
+2024-05-04,Costela Suína,2.51
+2024-05-04,Salsicha,2.4
+2024-05-04,Carne Moída,0.86
+2024-05-04,Picanha,3.22
+2024-05-04,Salsicha,1.9
+2024-05-04,Costela Suína,2.04
+2024-05-04,Costela Suína,1.78
+2024-05-05,Picanha,3.24
+2024-05-05,Contra Filé,1.0
+2024-05-05,Coxa/Sobrecoxa de Frango,2.35
+2024-05-05,Coxa/Sobrecoxa de Frango,1.59
+2024-05-05,Linguiça Toscana,1.01
+2024-05-05,Linguiça Toscana,1.38
+2024-05-05,Coxa/Sobrecoxa de Frango,3.92
+2024-05-05,Salsicha,3.15
+2024-05-05,Carne Moída,2.45
+2024-05-06,Contra Filé,2.64
+2024-05-06,Carne Moída,1.68
+2024-05-06,Picanha,1.26
+2024-05-06,Linguiça Toscana,1.22
+2024-05-06,Costela Suína,1.62
+2024-05-06,Costela Suína,3.41
+2024-05-06,Costela Suína,2.4
+2024-05-07,Coxa/Sobrecoxa de Frango,1.88
+2024-05-07,Linguiça Toscana,2.51
+2024-05-07,Contra Filé,0.79
+2024-05-07,Fraldinha,1.84
+2024-05-07,Fraldinha,2.32
+2024-05-08,Carne Moída,3.82
+2024-05-08,Maminha,3.27
+2024-05-08,Picanha,1.78
+2024-05-08,Contra Filé,1.16
+2024-05-08,Contra Filé,0.59
+2024-05-08,Fraldinha,2.7
+2024-05-08,Carne Moída,1.53
+2024-05-08,Coxa/Sobrecoxa de Frango,3.13
+2024-05-08,Picanha,1.29
+2024-05-08,Contra Filé,2.26
+2024-05-08,Linguiça Toscana,2.29
+2024-05-08,Fraldinha,1.27
+2024-05-08,Contra Filé,1.94
+2024-05-08,Costela Suína,1.78
+2024-05-08,Maminha,2.13
+2024-05-09,Picanha,0.62
+2024-05-09,Picanha,3.04
+2024-05-09,Carne Moída,3.28
+2024-05-09,Costela Suína,1.55
+2024-05-09,Linguiça Toscana,1.46
+2024-05-09,Fraldinha,1.53
+2024-05-09,Salsicha,2.35
+2024-05-09,Contra Filé,1.84
+2024-05-09,Coxa/Sobrecoxa de Frango,3.15
+2024-05-09,Salsicha,2.76
+2024-05-09,Linguiça Toscana,4.55
+2024-05-09,Linguiça Toscana,3.0
+2024-05-09,Salsicha,3.7
+2024-05-09,Salsicha,2.93
+2024-05-10,Coxa/Sobrecoxa de Frango,3.15
+2024-05-10,Picanha,1.71
+2024-05-10,Contra Filé,3.02
+2024-05-10,Picanha,2.46
+2024-05-10,Maminha,2.7
+2024-05-11,Costela Suína,2.53
+2024-05-11,Maminha,2.55
+2024-05-11,Linguiça Toscana,2.65
+2024-05-11,Picanha,2.56
+2024-05-11,Salsicha,4.17
+2024-05-11,Carne Moída,2.76
+2024-05-11,Linguiça Toscana,4.13
+2024-05-11,Linguiça Toscana,2.26
+2024-05-11,Fraldinha,1.46
+2024-05-11,Maminha,2.51
+2024-05-12,Carne Moída,3.26
+2024-05-12,Salsicha,2.27
+2024-05-12,Salsicha,1.58
+2024-05-12,Carne Moída,1.5
+2024-05-12,Linguiça Toscana,3.7
+2024-05-12,Linguiça Toscana,2.77
+2024-05-12,Fraldinha,3.11
+2024-05-12,Coxa/Sobrecoxa de Frango,3.58
+2024-05-12,Picanha,2.37
+2024-05-12,Fraldinha,3.45
+2024-05-12,Maminha,1.07
+2024-05-12,Picanha,1.33
+2024-05-12,Linguiça Toscana,3.3
+2024-05-13,Coxa/Sobrecoxa de Frango,3.73
+2024-05-13,Linguiça Toscana,2.59
+2024-05-13,Costela Suína,2.19
+2024-05-13,Coxa/Sobrecoxa de Frango,1.24
+2024-05-13,Coxa/Sobrecoxa de Frango,1.99
+2024-05-14,Carne Moída,2.76
+2024-05-14,Maminha,2.27
+2024-05-14,Coxa/Sobrecoxa de Frango,3.85
+2024-05-14,Maminha,2.96
+2024-05-14,Salsicha,1.22
+2024-05-14,Picanha,2.06
+2024-05-14,Linguiça Toscana,3.39
+2024-05-14,Coxa/Sobrecoxa de Frango,3.64
+2024-05-15,Maminha,1.57
+2024-05-15,Costela Suína,1.14
+2024-05-15,Contra Filé,3.06
+2024-05-15,Carne Moída,2.78
+2024-05-15,Salsicha,1.8
+2024-05-15,Maminha,2.55
+2024-05-15,Coxa/Sobrecoxa de Frango,1.91
+2024-05-16,Coxa/Sobrecoxa de Frango,2.05
+2024-05-16,Contra Filé,0.64
+2024-05-16,Linguiça Toscana,3.18
+2024-05-16,Contra Filé,0.87
+2024-05-16,Costela Suína,2.2
+2024-05-16,Fraldinha,2.67
+2024-05-16,Maminha,0.95
+2024-05-16,Contra Filé,3.04
+2024-05-16,Fraldinha,1.94
+2024-05-16,Salsicha,2.4
+2024-05-17,Picanha,3.49
+2024-05-17,Carne Moída,1.78
+2024-05-17,Fraldinha,1.38
+2024-05-17,Fraldinha,2.12
+2024-05-17,Coxa/Sobrecoxa de Frango,3.22
+2024-05-17,Maminha,2.74
+2024-05-17,Maminha,0.86
+2024-05-17,Picanha,2.77
+2024-05-17,Fraldinha,2.37
+2024-05-17,Picanha,0.84
+2024-05-18,Carne Moída,2.11
+2024-05-18,Contra Filé,1.9
+2024-05-18,Picanha,0.62
+2024-05-18,Salsicha,3.15
+2024-05-18,Coxa/Sobrecoxa de Frango,2.29
+2024-05-19,Contra Filé,1.01
+2024-05-19,Picanha,2.13
+2024-05-19,Costela Suína,2.86
+2024-05-19,Contra Filé,1.31
+2024-05-19,Contra Filé,2.3
+2024-05-19,Linguiça Toscana,4.76
+2024-05-19,Linguiça Toscana,2.66
+2024-05-19,Costela Suína,3.91
+2024-05-20,Salsicha,2.22
+2024-05-20,Carne Moída,1.02
+2024-05-20,Costela Suína,2.41
+2024-05-20,Coxa/Sobrecoxa de Frango,3.41
+2024-05-20,Fraldinha,0.84
+2024-05-20,Coxa/Sobrecoxa de Frango,1.14
+2024-05-20,Contra Filé,0.62
+2024-05-20,Coxa/Sobrecoxa de Frango,0.98
+2024-05-20,Coxa/Sobrecoxa de Frango,3.84
+2024-05-20,Costela Suína,2.58
+2024-05-20,Picanha,3.18
+2024-05-20,Maminha,2.73
+2024-05-20,Picanha,1.99
+2024-05-20,Costela Suína,3.3
+2024-05-21,Carne Moída,3.66
+2024-05-21,Salsicha,2.46
+2024-05-21,Maminha,0.84
+2024-05-21,Fraldinha,1.33
+2024-05-21,Linguiça Toscana,4.86
+2024-05-21,Picanha,3.3
+2024-05-21,Fraldinha,4.0
+2024-05-21,Fraldinha,2.68
+2024-05-21,Costela Suína,3.61
+2024-05-21,Maminha,3.49
+2024-05-21,Picanha,1.04
+2024-05-22,Coxa/Sobrecoxa de Frango,1.04
+2024-05-22,Contra Filé,3.38
+2024-05-22,Salsicha,3.73
+2024-05-22,Linguiça Toscana,3.24
+2024-05-22,Picanha,1.49
+2024-05-22,Coxa/Sobrecoxa de Frango,2.17
+2024-05-22,Maminha,3.07
+2024-05-22,Maminha,1.27
+2024-05-23,Contra Filé,3.37
+2024-05-23,Fraldinha,1.02
+2024-05-23,Contra Filé,3.43
+2024-05-23,Maminha,0.77
+2024-05-23,Carne Moída,1.51
+2024-05-23,Fraldinha,3.88
+2024-05-23,Linguiça Toscana,4.01
+2024-05-23,Picanha,1.47
+2024-05-23,Picanha,2.22
+2024-05-23,Costela Suína,3.49
+2024-05-23,Coxa/Sobrecoxa de Frango,1.96
+2024-05-23,Carne Moída,2.9
+2024-05-23,Linguiça Toscana,2.25
+2024-05-23,Carne Moída,3.22
+2024-05-24,Linguiça Toscana,3.89
+2024-05-24,Fraldinha,3.83
+2024-05-24,Costela Suína,1.62
+2024-05-24,Costela Suína,1.25
+2024-05-24,Coxa/Sobrecoxa de Frango,3.66
+2024-05-24,Costela Suína,1.14
+2024-05-24,Carne Moída,0.87
+2024-05-24,Contra Filé,2.14
+2024-05-24,Costela Suína,2.09
+2024-05-24,Coxa/Sobrecoxa de Frango,2.04
+2024-05-24,Picanha,3.22
+2024-05-24,Carne Moída,2.19
+2024-05-24,Contra Filé,3.04
+2024-05-25,Costela Suína,2.47
+2024-05-25,Salsicha,1.95
+2024-05-25,Costela Suína,2.67
+2024-05-25,Picanha,2.72
+2024-05-25,Fraldinha,3.89
+2024-05-25,Fraldinha,1.95
+2024-05-25,Costela Suína,3.36
+2024-05-26,Picanha,3.39
+2024-05-26,Maminha,1.22
+2024-05-26,Carne Moída,3.63
+2024-05-26,Linguiça Toscana,1.19
+2024-05-26,Salsicha,4.28
+2024-05-26,Maminha,0.9
+2024-05-26,Linguiça Toscana,3.32
+2024-05-26,Salsicha,4.19
+2024-05-26,Contra Filé,1.54
+2024-05-26,Costela Suína,1.37
+2024-05-26,Coxa/Sobrecoxa de Frango,2.19
+2024-05-26,Costela Suína,2.46
+2024-05-26,Salsicha,4.22
+2024-05-26,Picanha,2.87
+2024-05-27,Linguiça Toscana,4.54
+2024-05-27,Contra Filé,1.24
+2024-05-27,Salsicha,2.93
+2024-05-27,Contra Filé,1.85
+2024-05-27,Fraldinha,2.23
+2024-05-27,Fraldinha,2.74
+2024-05-27,Costela Suína,2.44
+2024-05-27,Linguiça Toscana,2.41
+2024-05-28,Salsicha,4.55
+2024-05-28,Picanha,0.76
+2024-05-28,Maminha,2.12
+2024-05-28,Coxa/Sobrecoxa de Frango,3.93
+2024-05-28,Contra Filé,0.53
+2024-05-28,Maminha,0.59
+2024-05-28,Picanha,2.83
+2024-05-28,Carne Moída,1.2
+2024-05-28,Contra Filé,1.82
+2024-05-28,Contra Filé,1.52
+2024-05-28,Salsicha,1.41
+2024-05-28,Picanha,3.13
+2024-05-28,Linguiça Toscana,2.81
+2024-05-29,Linguiça Toscana,2.14
+2024-05-29,Carne Moída,2.61
+2024-05-29,Carne Moída,1.83
+2024-05-29,Carne Moída,1.5
+2024-05-29,Salsicha,1.55
+2024-05-29,Maminha,0.65
+2024-05-29,Maminha,2.19
+2024-05-29,Maminha,1.71
+2024-05-29,Costela Suína,3.88
+2024-05-29,Maminha,1.42
+2024-05-29,Linguiça Toscana,4.53
+2024-05-29,Contra Filé,1.66
+2024-05-29,Maminha,0.92
+2024-05-29,Costela Suína,3.89
+2024-05-29,Picanha,2.43
+2024-05-30,Salsicha,3.63
+2024-05-30,Fraldinha,2.44
+2024-05-30,Maminha,1.54
+2024-05-30,Costela Suína,3.88
+2024-05-30,Picanha,1.39
+2024-05-30,Picanha,0.7
+2024-05-30,Maminha,2.96
+2024-05-31,Linguiça Toscana,4.56
+2024-05-31,Salsicha,4.99
+2024-05-31,Linguiça Toscana,4.98
+2024-05-31,Carne Moída,1.9
+2024-05-31,Linguiça Toscana,4.59
+2024-05-31,Linguiça Toscana,2.97
+2024-05-31,Contra Filé,1.8
+2024-06-01,Salsicha,4.06
+2024-06-01,Picanha,0.5
+2024-06-01,Fraldinha,1.87
+2024-06-01,Contra Filé,3.3
+2024-06-01,Carne Moída,3.61
+2024-06-02,Picanha,0.64
+2024-06-02,Coxa/Sobrecoxa de Frango,2.66
+2024-06-02,Carne Moída,1.64
+2024-06-02,Linguiça Toscana,2.6
+2024-06-02,Salsicha,3.6
+2024-06-02,Coxa/Sobrecoxa de Frango,2.29
+2024-06-02,Carne Moída,1.51
+2024-06-03,Fraldinha,2.23
+2024-06-03,Fraldinha,1.04
+2024-06-03,Salsicha,1.67
+2024-06-03,Salsicha,2.14
+2024-06-03,Salsicha,3.7
+2024-06-03,Contra Filé,1.96
+2024-06-03,Costela Suína,2.09
+2024-06-03,Maminha,2.35
+2024-06-03,Maminha,2.64
+2024-06-03,Fraldinha,3.45
+2024-06-03,Picanha,1.33
+2024-06-03,Maminha,2.33
+2024-06-04,Salsicha,3.36
+2024-06-04,Linguiça Toscana,2.83
+2024-06-04,Salsicha,4.82
+2024-06-04,Coxa/Sobrecoxa de Frango,1.98
+2024-06-04,Maminha,0.91
+2024-06-04,Salsicha,2.26
+2024-06-04,Coxa/Sobrecoxa de Frango,3.94
+2024-06-04,Linguiça Toscana,2.1
+2024-06-04,Salsicha,2.22
+2024-06-04,Salsicha,2.82
+2024-06-04,Picanha,0.91
+2024-06-04,Costela Suína,0.8
+2024-06-04,Carne Moída,2.16
+2024-06-04,Costela Suína,3.24
+2024-06-05,Carne Moída,3.53
+2024-06-05,Salsicha,2.21
+2024-06-05,Carne Moída,1.4
+2024-06-05,Contra Filé,0.58
+2024-06-05,Carne Moída,1.31
+2024-06-05,Fraldinha,2.11
+2024-06-05,Linguiça Toscana,4.48
+2024-06-05,Costela Suína,3.12
+2024-06-05,Linguiça Toscana,1.0
+2024-06-06,Maminha,3.17
+2024-06-06,Picanha,1.79
+2024-06-06,Salsicha,4.41
+2024-06-06,Salsicha,2.22
+2024-06-06,Picanha,1.73
+2024-06-06,Salsicha,1.54
+2024-06-06,Fraldinha,3.36
+2024-06-06,Salsicha,4.39
+2024-06-06,Picanha,1.68
+2024-06-07,Maminha,3.28
+2024-06-07,Carne Moída,2.69
+2024-06-07,Contra Filé,3.3
+2024-06-07,Coxa/Sobrecoxa de Frango,2.21
+2024-06-07,Fraldinha,3.38
+2024-06-07,Coxa/Sobrecoxa de Frango,2.48
+2024-06-07,Carne Moída,2.9
+2024-06-07,Linguiça Toscana,2.14
+2024-06-07,Coxa/Sobrecoxa de Frango,1.72
+2024-06-07,Costela Suína,2.8
+2024-06-08,Linguiça Toscana,4.61
+2024-06-08,Maminha,3.2
+2024-06-08,Costela Suína,3.84
+2024-06-08,Picanha,2.34
+2024-06-08,Costela Suína,1.51
+2024-06-08,Coxa/Sobrecoxa de Frango,1.77
+2024-06-08,Linguiça Toscana,3.73
+2024-06-08,Salsicha,1.59
+2024-06-08,Fraldinha,3.86
+2024-06-08,Maminha,1.0
+2024-06-08,Maminha,1.17
+2024-06-09,Linguiça Toscana,1.96
+2024-06-09,Fraldinha,3.92
+2024-06-09,Contra Filé,0.92
+2024-06-09,Coxa/Sobrecoxa de Frango,2.73
+2024-06-09,Linguiça Toscana,3.84
+2024-06-09,Picanha,2.61
+2024-06-09,Picanha,3.11
+2024-06-09,Fraldinha,2.13
+2024-06-09,Linguiça Toscana,3.12
+2024-06-09,Carne Moída,3.68
+2024-06-09,Fraldinha,3.11
+2024-06-09,Fraldinha,3.77
+2024-06-10,Salsicha,1.26
+2024-06-10,Fraldinha,1.66
+2024-06-10,Fraldinha,0.84
+2024-06-10,Maminha,2.12
+2024-06-10,Coxa/Sobrecoxa de Frango,2.34
+2024-06-10,Costela Suína,1.84
+2024-06-11,Salsicha,2.25
+2024-06-11,Linguiça Toscana,3.98
+2024-06-11,Linguiça Toscana,3.2
+2024-06-11,Fraldinha,2.05
+2024-06-11,Carne Moída,3.28
+2024-06-11,Linguiça Toscana,1.82
+2024-06-11,Picanha,2.59
+2024-06-11,Coxa/Sobrecoxa de Frango,2.39
+2024-06-11,Picanha,0.85
+2024-06-12,Contra Filé,0.66
+2024-06-12,Maminha,1.4
+2024-06-12,Linguiça Toscana,2.49
+2024-06-12,Carne Moída,1.3
+2024-06-12,Fraldinha,2.48
+2024-06-12,Carne Moída,2.86
+2024-06-12,Linguiça Toscana,3.39
+2024-06-12,Contra Filé,1.49
+2024-06-12,Carne Moída,2.51
+2024-06-12,Costela Suína,2.74
+2024-06-12,Costela Suína,1.83
+2024-06-12,Salsicha,3.32
+2024-06-13,Salsicha,3.86
+2024-06-13,Costela Suína,3.41
+2024-06-13,Maminha,1.92
+2024-06-13,Maminha,1.87
+2024-06-13,Coxa/Sobrecoxa de Frango,3.63
+2024-06-13,Contra Filé,1.39
+2024-06-13,Contra Filé,2.88
+2024-06-13,Fraldinha,3.48
+2024-06-14,Contra Filé,2.54
+2024-06-14,Costela Suína,2.25
+2024-06-14,Maminha,0.86
+2024-06-14,Costela Suína,1.13
+2024-06-14,Fraldinha,3.08
+2024-06-14,Picanha,2.81
+2024-06-14,Fraldinha,3.75
+2024-06-14,Fraldinha,2.7
+2024-06-14,Fraldinha,1.55
+2024-06-14,Fraldinha,3.57
+2024-06-14,Picanha,2.75
+2024-06-14,Carne Moída,2.82
+2024-06-14,Maminha,1.69
+2024-06-15,Coxa/Sobrecoxa de Frango,2.01
+2024-06-15,Picanha,2.07
+2024-06-15,Contra Filé,0.83
+2024-06-15,Linguiça Toscana,2.74
+2024-06-15,Linguiça Toscana,3.54
+2024-06-15,Maminha,2.49
+2024-06-15,Salsicha,1.31
+2024-06-15,Contra Filé,1.61
+2024-06-15,Fraldinha,2.81
+2024-06-15,Costela Suína,2.43
+2024-06-16,Contra Filé,2.55
+2024-06-16,Contra Filé,2.98
+2024-06-16,Fraldinha,1.05
+2024-06-16,Maminha,2.32
+2024-06-16,Picanha,2.7
+2024-06-16,Salsicha,4.26
+2024-06-17,Fraldinha,3.64
+2024-06-17,Maminha,0.82
+2024-06-17,Linguiça Toscana,4.85
+2024-06-17,Costela Suína,3.15
+2024-06-17,Salsicha,4.48
+2024-06-17,Linguiça Toscana,1.6
+2024-06-17,Costela Suína,2.24
+2024-06-17,Linguiça Toscana,2.48
+2024-06-17,Picanha,1.83
+2024-06-18,Costela Suína,1.92
+2024-06-18,Maminha,1.72
+2024-06-18,Maminha,3.46
+2024-06-18,Costela Suína,3.49
+2024-06-18,Salsicha,1.99
+2024-06-18,Linguiça Toscana,4.27
+2024-06-18,Contra Filé,3.07
+2024-06-19,Contra Filé,2.28
+2024-06-19,Fraldinha,1.95
+2024-06-19,Coxa/Sobrecoxa de Frango,1.96
+2024-06-19,Maminha,3.07
+2024-06-19,Costela Suína,2.29
+2024-06-19,Maminha,1.31
+2024-06-19,Maminha,1.04
+2024-06-19,Coxa/Sobrecoxa de Frango,2.25
+2024-06-19,Coxa/Sobrecoxa de Frango,2.6
+2024-06-19,Fraldinha,2.27
+2024-06-19,Picanha,3.3
+2024-06-19,Costela Suína,2.67
+2024-06-19,Linguiça Toscana,3.56
+2024-06-19,Contra Filé,2.71
+2024-06-20,Maminha,1.41
+2024-06-20,Linguiça Toscana,1.79
+2024-06-20,Picanha,1.59
+2024-06-20,Linguiça Toscana,4.19
+2024-06-20,Linguiça Toscana,2.99
+2024-06-20,Contra Filé,1.24
+2024-06-20,Fraldinha,0.98
+2024-06-20,Maminha,2.69
+2024-06-20,Costela Suína,2.09
+2024-06-20,Contra Filé,0.88
+2024-06-20,Contra Filé,0.69
+2024-06-20,Picanha,1.31
+2024-06-20,Costela Suína,2.11
+2024-06-21,Salsicha,4.13
+2024-06-21,Fraldinha,3.59
+2024-06-21,Picanha,1.61
+2024-06-21,Linguiça Toscana,4.55
+2024-06-21,Picanha,1.73
+2024-06-21,Salsicha,4.22
+2024-06-21,Carne Moída,3.32
+2024-06-21,Salsicha,2.73
+2024-06-21,Fraldinha,1.49
+2024-06-21,Coxa/Sobrecoxa de Frango,2.79
+2024-06-21,Linguiça Toscana,1.29
+2024-06-21,Carne Moída,2.26
+2024-06-21,Carne Moída,3.8
+2024-06-21,Contra Filé,2.63
+2024-06-22,Fraldinha,3.53
+2024-06-22,Contra Filé,2.33
+2024-06-22,Coxa/Sobrecoxa de Frango,3.25
+2024-06-22,Maminha,2.67
+2024-06-22,Carne Moída,3.65
+2024-06-22,Picanha,0.92
+2024-06-22,Picanha,1.04
+2024-06-22,Coxa/Sobrecoxa de Frango,2.22
+2024-06-22,Carne Moída,1.86
+2024-06-22,Fraldinha,3.89
+2024-06-22,Carne Moída,3.54
+2024-06-22,Linguiça Toscana,4.51
+2024-06-22,Maminha,3.23
+2024-06-22,Linguiça Toscana,1.47
+2024-06-22,Coxa/Sobrecoxa de Frango,3.59
+2024-06-23,Costela Suína,1.18
+2024-06-23,Costela Suína,3.35
+2024-06-23,Carne Moída,3.61
+2024-06-23,Coxa/Sobrecoxa de Frango,2.5
+2024-06-23,Picanha,0.99
+2024-06-23,Linguiça Toscana,2.57
+2024-06-23,Coxa/Sobrecoxa de Frango,2.78
+2024-06-23,Linguiça Toscana,2.98
+2024-06-23,Fraldinha,2.25
+2024-06-24,Salsicha,2.12
+2024-06-24,Contra Filé,3.01
+2024-06-24,Contra Filé,2.11
+2024-06-24,Fraldinha,2.21
+2024-06-24,Linguiça Toscana,3.45
+2024-06-24,Coxa/Sobrecoxa de Frango,1.06
+2024-06-25,Costela Suína,1.15
+2024-06-25,Carne Moída,1.11
+2024-06-25,Maminha,3.19
+2024-06-25,Linguiça Toscana,1.53
+2024-06-25,Maminha,1.35
+2024-06-25,Costela Suína,1.7
+2024-06-25,Costela Suína,1.61
+2024-06-25,Linguiça Toscana,1.61
+2024-06-25,Maminha,2.32
+2024-06-25,Linguiça Toscana,4.2
+2024-06-25,Contra Filé,1.95
+2024-06-26,Carne Moída,0.92
+2024-06-26,Contra Filé,2.97
+2024-06-26,Carne Moída,2.69
+2024-06-26,Maminha,1.56
+2024-06-26,Maminha,3.35
+2024-06-26,Contra Filé,1.28
+2024-06-26,Maminha,1.52
+2024-06-27,Picanha,0.61
+2024-06-27,Costela Suína,2.24
+2024-06-27,Linguiça Toscana,3.47
+2024-06-27,Linguiça Toscana,3.51
+2024-06-27,Linguiça Toscana,3.72
+2024-06-27,Costela Suína,1.93
+2024-06-27,Linguiça Toscana,1.02
+2024-06-27,Linguiça Toscana,4.34
+2024-06-27,Costela Suína,2.37
+2024-06-27,Coxa/Sobrecoxa de Frango,3.83
+2024-06-27,Maminha,1.75
+2024-06-27,Fraldinha,2.98
+2024-06-28,Maminha,2.43
+2024-06-28,Costela Suína,2.83
+2024-06-28,Contra Filé,3.01
+2024-06-28,Contra Filé,0.96
+2024-06-28,Linguiça Toscana,2.41
+2024-06-28,Salsicha,1.44
+2024-06-28,Linguiça Toscana,1.12
+2024-06-28,Carne Moída,3.58
+2024-06-28,Linguiça Toscana,3.75
+2024-06-28,Contra Filé,1.41
+2024-06-28,Salsicha,1.85
+2024-06-28,Salsicha,3.93
