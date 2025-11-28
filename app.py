@@ -44,39 +44,27 @@ MIN_HISTORICO = 20
 
 
 # ======================================================================
-# 2) UPLOAD DOS ARQUIVOS
+# 2) UPLOAD DO ARQUIVO ÚNICO
 # ======================================================================
 
-st.sidebar.header("1. Upload dos Dados")
+st.sidebar.header("1. Upload do Arquivo de Dados")
 
-arquivo1 = st.sidebar.file_uploader("Arquivo index_1.csv", type=["csv"])
-arquivo2 = st.sidebar.file_uploader("Arquivo index_2.csv", type=["csv"])
+arquivo = st.sidebar.file_uploader("Envie o arquivo CSV ", type=["csv"])
 
-# Se não enviou ambos, para o app
-if not arquivo1 or not arquivo2:
-    st.info("Envie **os dois arquivos CSV** para iniciar.")
+# Se não enviou o CSV, para o app
+if not arquivo:
+    st.info("Envie o arquivo CSV para iniciar.")
     st.stop()
+
 
 
 # ======================================================================
 # 3) FUNÇÃO PARA CARREGAR E PREPARAR DADOS
 # ======================================================================
 
-def carregar_e_preparar_dados(file1, file2):
-    """
-    Lê os dois arquivos CSV, normaliza nomes das colunas,
-    identifica automaticamente a coluna contendo o nome do café
-    e cria a tabela agregada de vendas diárias por produto.
-    """
+def carregar_e_preparar_dados(file):
+    df = pd.read_csv(file)
 
-    # Lê arquivos
-    df1 = pd.read_csv(file1)
-    df2 = pd.read_csv(file2)
-
-    # Junta os dois datasets
-    df = pd.concat([df1, df2], ignore_index=True)
-
-    # Normaliza nomes de colunas
     df.columns = (
         df.columns
         .str.lower()
@@ -84,9 +72,7 @@ def carregar_e_preparar_dados(file1, file2):
         .str.replace(" ", "_")
     )
 
-    # ------------------------------------------------------------------
-    # DETECTA AUTOMATICAMENTE A COLUNA "coffee_name"
-    # ------------------------------------------------------------------
+    # Detecta automaticamente a coluna do produto
     possiveis_nomes = ["coffee_name", "coffee", "name", "product"]
 
     coluna_produto = None
@@ -99,25 +85,17 @@ def carregar_e_preparar_dados(file1, file2):
         st.error("❌ Nenhuma coluna correspondente ao nome do café foi encontrada.")
         st.stop()
 
-    # Renomeia para "produto"
     df = df.rename(columns={coluna_produto: "produto"})
 
-    # ------------------------------------------------------------------
-    # Normaliza coluna de data
-    # ------------------------------------------------------------------
     if "date" not in df.columns:
-        st.error("❌ A coluna 'date' não existe no CSV enviado.")
+        st.error("❌ A coluna 'date' não existe no CSV.")
         st.stop()
 
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     df = df.dropna(subset=["date", "produto"])
 
-    # Cada linha é uma venda → quantidade = 1
     df["qtd"] = 1
 
-    # ------------------------------------------------------------------
-    # Agregação: vendas diárias por produto
-    # ------------------------------------------------------------------
     vendas = (
         df.groupby(["date", "produto"], as_index=False)["qtd"]
           .sum()
@@ -129,12 +107,13 @@ def carregar_e_preparar_dados(file1, file2):
     return df, vendas
 
 
+
 # ======================================================================
 # 4) CARREGA OS DADOS
 # ======================================================================
 
 with st.spinner("Carregando e preparando dados..."):
-    df_raw, vendas_diarias = carregar_e_preparar_dados(arquivo1, arquivo2)
+    df_raw, vendas_diarias = carregar_e_preparar_dados(arquivo)
 
 st.subheader("📂 Visão Geral dos Dados")
 
