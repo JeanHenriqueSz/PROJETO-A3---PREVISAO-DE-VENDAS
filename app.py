@@ -94,7 +94,12 @@ def carregar_e_preparar_dados(file):
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
     df = df.dropna(subset=["date", "produto"])
 
-    df["qtd"] = 1
+    # Se já existir a coluna qtd no CSV, mantém; se não, assume 1
+    if "qtd" not in df.columns:
+        df["qtd"] = 1
+    else:
+        df["qtd"] = pd.to_numeric(df["qtd"], errors="coerce").fillna(1)
+
 
     vendas = (
         df.groupby(["date", "produto"], as_index=False)["qtd"]
