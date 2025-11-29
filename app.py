@@ -95,7 +95,7 @@ def carregar_e_preparar_dados(file):
             break
 
     if coluna_produto is None:
-        st.error("❌ Nenhuma coluna correspondente ao nome do café foi encontrada.")
+        st.error("❌ Nenhuma coluna correspondente ao nome do produto foi encontrada.")
         st.stop()
 
     df = df.rename(columns={coluna_produto: "produto"})
@@ -254,6 +254,11 @@ resultados_df = pd.DataFrame(resultados, columns=cols)
 st.subheader("📊 Tabela de Resultados")
 st.dataframe(resultados_df)
 
+st.info("""
+ℹ️ **As previsões de 30 dias são feitas utilizando o modelo com melhor desempenho médio — Random Forest.**
+""")
+
+
 # ======================================================================
 # 6.1) MÉDIAS GERAIS DOS MODELOS
 # ======================================================================
@@ -285,6 +290,26 @@ medias_df = pd.DataFrame({
 })
 
 st.dataframe(medias_df)
+
+# ======================================================================
+# 6.2) CORRELAÇÃO DAS FEATURES
+# ======================================================================
+
+st.subheader("🔍 Correlação das Features")
+
+corr = df_total[["qtd","mes","dia","dia_semana","lag_1","lag_7"]].corr()
+
+figcorr, axcorr = plt.subplots(figsize=(6,4))
+cax = axcorr.matshow(corr, cmap="coolwarm")
+figcorr.colorbar(cax)
+
+axcorr.set_xticks(range(len(corr.columns)))
+axcorr.set_yticks(range(len(corr.columns)))
+axcorr.set_xticklabels(corr.columns, rotation=45)
+axcorr.set_yticklabels(corr.columns)
+
+st.pyplot(figcorr)
+
 
 
 # ======================================================================
