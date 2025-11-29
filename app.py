@@ -313,7 +313,7 @@ st.pyplot(fig1)
 
 
 # ======================================================================
-# 9) GRÁFICO REAL vs PREVISTO — Índice do CONJUNTO DE TESTE
+# 9) GRÁFICO REAL vs PREVISTO — atualizado com proteção contra erros
 # ======================================================================
 
 st.subheader("📈 Real vs Previsto — Escolha um Produto")
@@ -327,22 +327,39 @@ produto_escolhido = st.selectbox(
 
 dados_prod = vendas_diarias[vendas_diarias["produto"] == produto_escolhido].copy()
 
+# Features de tempo
 dados_prod["mes"] = dados_prod["data"].dt.month
 dados_prod["dia"] = dados_prod["data"].dt.day
 dados_prod["dia_semana"] = dados_prod["data"].dt.dayofweek
+
+# Lags
 dados_prod["lag_1"] = dados_prod["qtd"].shift(1)
 dados_prod["lag_7"] = dados_prod["qtd"].shift(7)
-dados_prod = dados_prod.dropna(subset=["lag_1", "lag_7"])
+
+# Remove linhas inválidas
+dados_prod = dados_prod.dropna()
+
+# Se ainda sobrou pouco dado, não mostra o gráfico
+if len(dados_prod) < 20:
+    st.warning("⚠ Este produto não possui dados suficientes para gerar o gráfico.")
+    st.stop()
 
 X = dados_prod[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
 y = dados_prod["qtd"]
 
 split_index = int(len(dados_prod) * 0.8)
-X_train = X.iloc[:split_index]
-y_train = y.iloc[:split_index]
-X_test = X.iloc[split_index:]
-y_test = y.iloc[split_index:]
 
+X_train = X.iloc[:split_index].copy()
+y_train = y.iloc[:split_index].copy()
+X_test = X.iloc[split_index:].copy()
+y_test = y.iloc[split_index:].copy()
+
+# Segurança extra — remove qualquer NaN remanescente
+if X_train.isna().sum().sum() > 0 or X_test.isna().sum().sum() > 0:
+    st.warning("⚠ Dados insuficientes ou inválidos após lag — tente outro produto.")
+    st.stop()
+
+# Treino dos modelos
 modelo_rf = RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1)
 modelo_rf.fit(X_train, y_train)
 pred_rf = modelo_rf.predict(X_test)
@@ -355,9 +372,10 @@ modelo_mlp = MLPRegressor(hidden_layer_sizes=(64, 32), max_iter=500, random_stat
 modelo_mlp.fit(X_train, y_train)
 pred_mlp = modelo_mlp.predict(X_test)
 
-# Índice relativo ao CONJUNTO DE TESTE
+# Índice relativo ao conjunto de teste
 indices_teste = list(range(len(y_test)))
 
+# Plot
 fig3, ax3 = plt.subplots(figsize=(12, 5))
 
 ax3.plot(indices_teste, y_test.values, label="Real", marker="o")
@@ -372,6 +390,7 @@ ax3.legend()
 ax3.grid(True)
 
 st.pyplot(fig3)
+
 
 
 
