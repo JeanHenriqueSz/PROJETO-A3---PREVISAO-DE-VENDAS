@@ -393,12 +393,12 @@ st.pyplot(fig3)
 
 
 # ======================================================================
-# 10) REAL vs PREVISTO — TESTE COMPLETO (TODOS OS PRODUTOS SOMADOS)
+# 10) REAL VS PREVISTO — TESTE COMPLETO (TODOS OS PRODUTOS) — RF / LR / MLP
 # ======================================================================
 
 st.subheader("📉 Real vs Previsto — Teste Completo (Todos os Produtos)")
 
-# Vamos reconstruir o dataset com features
+# Reconstruir dataset com features
 df_total = vendas_diarias.copy()
 df_total["mes"] = df_total["data"].dt.month
 df_total["dia"] = df_total["data"].dt.day
@@ -406,7 +406,6 @@ df_total["dia_semana"] = df_total["data"].dt.dayofweek
 df_total["lag_1"] = df_total.groupby("produto")["qtd"].shift(1)
 df_total["lag_7"] = df_total.groupby("produto")["qtd"].shift(7)
 
-# Remover valores ausentes
 df_total = df_total.dropna(subset=["lag_1", "lag_7"])
 
 # AGREGAR por dia (somando todos os produtos)
@@ -419,33 +418,50 @@ df_agg = df_total.groupby("data", as_index=False).agg({
     "lag_7": "sum"
 })
 
-# Features e target
+# Features e alvo
 X_all = df_agg[["mes", "dia", "dia_semana", "lag_1", "lag_7"]]
 y_all = df_agg["qtd"]
 
-# Split temporal 80/20
+# Split temporal
 split_all = int(len(df_agg) * 0.8)
 X_train_all = X_all.iloc[:split_all]
 y_train_all = y_all.iloc[:split_all]
 X_test_all = X_all.iloc[split_all:]
 y_test_all = y_all.iloc[split_all:]
 
-# Treinar apenas o Random Forest (o melhor modelo)
-modelo_total = RandomForestRegressor(n_estimators=200, random_state=42)
-modelo_total.fit(X_train_all, y_train_all)
-y_pred_all = modelo_total.predict(X_test_all)
+# ----------------------------- MODELAGEM ------------------------------
 
-# Gráfico Real vs Previsto total
-fig4, ax4 = plt.subplots(figsize=(12, 5))
-ax4.plot(y_test_all.index, y_test_all.values, label="Real Total", marker="o")
-ax4.plot(y_test_all.index, y_pred_all, label="Previsto Total", marker="x")
+# Random Forest
+modelo_rf_all = RandomForestRegressor(n_estimators=200, random_state=42)
+modelo_rf_all.fit(X_train_all, y_train_all)
+pred_rf_all = modelo_rf_all.predict(X_test_all)
 
-ax4.set_title("Real vs Previsto — Teste Completo (Todos os Produtos)")
-ax4.set_ylabel("Vendas Diárias (Total)")
-ax4.legend()
-ax4.grid(True)
+# Linear Regression
+modelo_lr_all = LinearRegression()
+modelo_lr_all.fit(X_train_all, y_train_all)
+pred_lr_all = modelo_lr_all.predict(X_test_all)
 
-st.pyplot(fig4)
+# MLP
+modelo_mlp_all = MLPRegressor(hidden_layer_sizes=(64, 32), max_iter=500, random_state=42)
+modelo_mlp_all.fit(X_train_all, y_train_all)
+pred_mlp_all = modelo_mlp_all.predict(X_test_all)
+
+# ----------------------------- GRÁFICO ------------------------------
+
+fig5, ax5 = plt.subplots(figsize=(12, 5))
+
+ax5.plot(y_test_all.index, y_test_all.values, label="Real Total", marker="o")
+ax5.plot(y_test_all.index, pred_rf_all, label="RF (Random Forest)", marker="x")
+ax5.plot(y_test_all.index, pred_lr_all, label="Linear Regression", marker="s")
+ax5.plot(y_test_all.index, pred_mlp_all, label="MLP Neural Network", marker="^")
+
+ax5.set_title("Real vs Previsto — Teste Completo (Todos os Produtos)")
+ax5.set_ylabel("Vendas Diárias Totais")
+ax5.legend()
+ax5.grid(True)
+
+st.pyplot(fig5)
+
 
 
 
