@@ -318,7 +318,7 @@ st.pyplot(fig1)
 
 st.subheader("📈 Real vs Previsto — Escolha um Produto")
 
-lista_produtos = vendas_diarias["produto"].unique()
+lista_produtos = sorted(vendas_diarias["produto"].unique())
 
 produto_escolhido = st.selectbox(
     "Selecione o produto para visualizar o gráfico:",
