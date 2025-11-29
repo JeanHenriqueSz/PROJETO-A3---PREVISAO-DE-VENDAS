@@ -291,24 +291,7 @@ medias_df = pd.DataFrame({
 
 st.dataframe(medias_df)
 
-# ======================================================================
-# 6.2) CORRELAÇÃO DAS FEATURES
-# ======================================================================
 
-st.subheader("🔍 Correlação das Features")
-
-corr = df_total[["qtd","mes","dia","dia_semana","lag_1","lag_7"]].corr()
-
-figcorr, axcorr = plt.subplots(figsize=(6,4))
-cax = axcorr.matshow(corr, cmap="coolwarm")
-figcorr.colorbar(cax)
-
-axcorr.set_xticks(range(len(corr.columns)))
-axcorr.set_yticks(range(len(corr.columns)))
-axcorr.set_xticklabels(corr.columns, rotation=45)
-axcorr.set_yticklabels(corr.columns)
-
-st.pyplot(figcorr)
 
 
 
@@ -487,7 +470,24 @@ ax5.grid(True)
 
 st.pyplot(fig5)
 
+# ======================================================================
+# 6.2) CORRELAÇÃO DAS FEATURES
+# ======================================================================
 
+st.subheader("🔍 Correlação das Features")
+
+corr = df_total[["qtd","mes","dia","dia_semana","lag_1","lag_7"]].corr()
+
+figcorr, axcorr = plt.subplots(figsize=(6,4))
+cax = axcorr.matshow(corr, cmap="coolwarm")
+figcorr.colorbar(cax)
+
+axcorr.set_xticks(range(len(corr.columns)))
+axcorr.set_yticks(range(len(corr.columns)))
+axcorr.set_xticklabels(corr.columns, rotation=45)
+axcorr.set_yticklabels(corr.columns)
+
+st.pyplot(figcorr)
 
 
 
